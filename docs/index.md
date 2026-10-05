@@ -12,7 +12,7 @@ hide:
 
 <p class="hero-lead">Panduan howto yang ditulis langkah demi langkah. Tak perlu latar belakang teknikal. Ikut sahaja, kita siapkan sama-sama.</p>
 
-[Mula Tutorial Pertama →](edit-video/index.md){ .md-button .md-button--primary }
+[Mulakan Tutorial Terkini →](edit-video-chat/index.md){ .md-button .md-button--primary }
 [Lihat Semua Tutorial](#tutorial-terkini){ .md-button }
 
 <p class="hero-pills"><span>Percuma</span><span>Untuk beginner</span><span>Step by step</span></p>
@@ -22,6 +22,16 @@ hide:
 ## Tutorial Terkini { #tutorial-terkini }
 
 <div class="grid cards" markdown>
+
+- <span class="chip">Claude Chat</span>
+
+    **[Edit Video Emas & Kewangan dalam Claude Chat](edit-video-chat/index.md)**
+
+    Cukup sembang biasa dengan Claude. Tiru gaya video rujukan, atau pilih satu daripada tiga gaya siap pakai untuk niche emas dan kewangan, untuk video 50 hingga 90 saat.
+
+    *Satu halaman · tanpa GitHub · telefon sahaja*
+
+    [Baca tutorial →](edit-video-chat/index.md)
 
 - <span class="chip">Claude Code</span>
 
