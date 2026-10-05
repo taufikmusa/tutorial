@@ -39,4 +39,5 @@ markdown_extensions:
 
 nav:
   - Utama: index.md
-  - "Edit Video": edit-video/index.md
+  - "Edit Video (Chat)": edit-video-chat/index.md
+  - "Edit Video (Claude Code)": edit-video/index.md

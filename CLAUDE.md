@@ -40,7 +40,10 @@ docs/
 
 **Setiap tutorial ialah SATU halaman panjang** (`docs/<slug>/index.md`), bukan banyak halaman langkah. Pembaca skrol dari atas ke bawah, dan menu di sebelah kanan (daftar kandungan, dijana daripada tajuk `##` dan `###`) membantu mereka melompat. Jangan buat butang "Langkah seterusnya" atau halaman berasingan per langkah.
 
-Tutorial sedia ada: `docs/edit-video/index.md` (Tiru Gaya Video dengan Claude Code, telefon sahaja).
+Tutorial sedia ada:
+
+- `docs/edit-video-chat/index.md`: Edit Video Emas & Kewangan dalam Claude Chat (tanpa GitHub, telefon sahaja)
+- `docs/edit-video/index.md`: Tiru Gaya Video dengan Claude Code (telefon sahaja)
 
 ## Checklist bila tambah tutorial baru
 
