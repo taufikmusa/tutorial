@@ -1,0 +1,57 @@
+site_name: Tutorial by Taufik
+site_description: Tutorial howto step by step, untuk beginner.
+site_url: https://tutorial.taufik.fyi/
+repo_url: https://github.com/taufikmusa/tutorial
+repo_name: taufikmusa/tutorial
+
+theme:
+  name: material
+  language: ms
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Tukar ke dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Tukar ke light mode
+  features:
+    - navigation.instant
+    - navigation.footer
+    - navigation.top
+    - content.code.copy
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Utama: index.md
+  - "Edit Video dengan Claude Code":
+      - Pengenalan: edit-video/index.md
+      - "1. Buat akaun GitHub": edit-video/01-github.md
+      - "2. Pasang Git & GitHub CLI": edit-video/02-git.md
+      - "3. Pasang Claude Code": edit-video/03-claude-code.md
+      - "4. Pasang ffmpeg": edit-video/04-ffmpeg.md
+      - "5. Buat repo & folder kerja": edit-video/05-repo.md
+      - "6. Edit video pertama": edit-video/06-edit.md
+      - "7. Simpan kerja ke GitHub": edit-video/07-simpan.md
+      - "Masalah biasa": edit-video/08-masalah.md
