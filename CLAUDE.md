@@ -2,6 +2,8 @@
 
 Repo ini ialah **tutorial.taufik.fyi**, tapak tutorial howto milik Taufik. Dibina dengan MkDocs Material dan di-deploy ke GitHub Pages melalui GitHub Actions.
 
+> **Menambah tutorial baharu?** Guna skill `tutorial-taufik-fyi` (`.claude/skills/tutorial-taufik-fyi/SKILL.md`). Ia mengandungi kerangka halaman, templat kad, dan checklist penuh.
+
 ## Peraturan utama
 
 - **Jangan push terus ke `main`.** Kerja di branch `claude/...`, kemudian buat Pull Request. Taufik sendiri yang akan merge.
