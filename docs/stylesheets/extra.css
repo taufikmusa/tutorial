@@ -151,3 +151,13 @@
   border-radius: 999px;
   margin-bottom: 0.6rem;
 }
+
+/* ---------- Whole card is clickable ---------- */
+.md-typeset .grid.cards > ul > li { position: relative; cursor: pointer; }
+.md-typeset .grid.cards > ul > li a:first-of-type::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+.md-typeset .grid.cards > ul > li a { text-decoration: none; }

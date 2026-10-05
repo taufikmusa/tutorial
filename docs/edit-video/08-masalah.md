@@ -2,20 +2,20 @@
 
 # Masalah biasa
 
-??? question "`claude` / `git` / `ffmpeg` is not recognized"
-    Terminal anda belum mengenali program yang baru dipasang. **Tutup terminal dan buka semula.** Jika masih sama, restart komputer.
+??? question "Saya tidak nampak tab Code dalam aplikasi Claude"
+    Pastikan aplikasi Claude sudah dikemas kini kepada versi terbaharu, dan akaun anda mempunyai langganan **Pro atau Max**. Akaun percuma tidak boleh menggunakan Claude Code.
 
-??? question "`winget` is not recognized (Windows)"
-    Winget terdapat pada Windows 10/11 yang telah dikemas kini. Buka **Microsoft Store**, cari **App Installer**, dan klik Update. Atau, muat turun Git terus daripada [git-scm.com](https://git-scm.com/download/win).
+??? question "Repo `video-saya` tidak muncul bila saya mahu pilih"
+    Claude GitHub App belum diberi akses kepada repo tersebut. Buka `github.com/settings/installations`, pilih **Claude**, tekan **Configure**, dan tambah `video-saya` dalam senarai repositori.
 
-??? question "Claude Code minta log masuk berulang kali"
-    Pastikan akaun Claude anda mempunyai langganan **Pro atau Max**. Akaun percuma tidak boleh menggunakan Claude Code. Cuba `/logout` dalam Claude, kemudian taip `claude` untuk log masuk semula.
+??? question "Muat naik video gagal atau tersekat"
+    Kemungkinan fail melebihi **25MB**. Kecilkan video atau potong kepada bahagian lebih pendek, kemudian cuba lagi. Pastikan juga sambungan internet anda stabil.
 
-??? question "`git push` gagal: file too large"
-    Ada fail video yang termasuk dalam commit. Pastikan `.gitignore` mengandungi `mentah/` dan `siap/`. Jika sudah terlanjur commit, minta Claude: *"Saya terlanjur commit video, tolong keluarkan daripada Git tanpa memadam fail asal."*
+??? question "Claude kata dia tidak jumpa video saya"
+    Semak nama fail dalam repo. Perhatikan huruf besar dan kecil, serta ruang kosong dalam nama. Cuma beritahu Claude nama fail yang tepat, atau minta: *"Senaraikan semua fail dalam repo ini."*
 
 ??? question "Hasil video tidak seperti yang saya mahu"
-    Beritahu Claude apa yang tidak kena menggunakan ayat biasa, dan Claude akan cuba lagi. Fail asal dalam `mentah` tidak pernah disentuh, jadi anda boleh mencuba berkali-kali tanpa risau.
+    Beritahu Claude apa yang tidak kena menggunakan ayat biasa, dan Claude akan cuba lagi. Video asal anda tidak diubah, jadi anda boleh mencuba berkali-kali tanpa risau.
 
-??? question "Mac minta password semasa pasang Homebrew"
-    Itu password log masuk Mac anda. Semasa menaip, aksara tidak akan kelihatan di skrin. Itu normal. Taip sahaja dan tekan Enter.
+??? question "Saya tidak jumpa video siap di GitHub"
+    Claude menyimpan hasil dalam cabang berasingan, bukan `main`. Tukar cabang melalui menu di bahagian atas repo (lihat Langkah 7), atau minta Claude buat pull request dan merge ke `main`.
