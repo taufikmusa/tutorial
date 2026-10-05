@@ -9,6 +9,8 @@ Skill ini memastikan setiap tutorial baharu mempunyai **format yang sama**: satu
 
 Baca juga `CLAUDE.md` di akar repo untuk peraturan umum.
 
+> Jika anda mengubah format dalam skill ini, kemas kini juga versi sembang di `chat-skill/tutorial-taufik-fyi-chat/SKILL.md` dan bina semula zip (lihat `chat-skill/README.md`).
+
 ## Aliran kerja (ikut mengikut susunan)
 
 1. **Fahami permintaan.** Jika topik, sasaran pembaca, atau platform (telefon/komputer) tidak jelas, tanya Taufik **satu soalan ringkas** sebelum menulis. Jika jelas, terus tulis.
