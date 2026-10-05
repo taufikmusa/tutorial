@@ -25,11 +25,11 @@ hide:
 
 - <span class="chip">Claude Code</span>
 
-    **[Edit Video dengan Claude Code](edit-video/index.md)**
+    **[Tiru Gaya Video dengan Claude Code](edit-video/index.md)**
 
-    Tiada komputer? Tiada masalah. Dari telefon sahaja, bermula dari kosong: belum ada Claude, belum ada GitHub. Pada akhirnya, anda boleh minta Claude potong, gabung dan resize video anda hanya dengan arahan biasa.
+    Lampirkan video rujukan, rakaman anda dan B-roll, taip satu arahan, dan Claude edit video anda supaya bergaya sama. Dari telefon sahaja, bermula dari kosong: belum ada Claude, belum ada GitHub pun tak mengapa.
 
-    *7 langkah · lebih kurang 40 minit · telefon sahaja*
+    *Satu halaman · persediaan lebih kurang 20 minit · telefon sahaja*
 
     [Baca tutorial →](edit-video/index.md)
 
