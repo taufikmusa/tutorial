@@ -41,10 +41,10 @@ nav:
   - "Edit Video":
       - Pengenalan: edit-video/index.md
       - "1. Buat akaun GitHub": edit-video/01-github.md
-      - "2. Pasang Git & GitHub CLI": edit-video/02-git.md
-      - "3. Pasang Claude Code": edit-video/03-claude-code.md
-      - "4. Pasang ffmpeg": edit-video/04-ffmpeg.md
-      - "5. Buat repo & folder kerja": edit-video/05-repo.md
+      - "2. Langgan Claude": edit-video/02-claude.md
+      - "3. Buat repo": edit-video/03-repo.md
+      - "4. Muat naik video": edit-video/04-video.md
+      - "5. Sambung Claude ke GitHub": edit-video/05-sambung.md
       - "6. Edit video pertama": edit-video/06-edit.md
-      - "7. Simpan kerja ke GitHub": edit-video/07-simpan.md
+      - "7. Ambil video siap": edit-video/07-ambil.md
       - "Masalah biasa": edit-video/08-masalah.md

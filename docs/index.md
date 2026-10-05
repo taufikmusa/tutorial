@@ -27,8 +27,10 @@ hide:
 
     **[Edit Video dengan Claude Code](edit-video/index.md)**
 
-    Bermula dari kosong: belum ada Claude, belum ada GitHub. Pada akhirnya, anda boleh minta Claude potong, gabung dan resize video anda hanya dengan arahan biasa.
+    Tiada komputer? Tiada masalah. Dari telefon sahaja, bermula dari kosong: belum ada Claude, belum ada GitHub. Pada akhirnya, anda boleh minta Claude potong, gabung dan resize video anda hanya dengan arahan biasa.
 
-    *7 langkah · lebih kurang 50 minit*
+    *7 langkah · lebih kurang 40 minit · telefon sahaja*
+
+    [Baca tutorial →](edit-video/index.md)
 
 </div>
