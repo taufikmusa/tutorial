@@ -1,0 +1,50 @@
+site_name: Tutorial · By Taufik
+site_description: Tutorial howto step by step, untuk beginner.
+site_url: https://tutorial.taufik.fyi/
+
+theme:
+  name: material
+  language: ms
+  palette:
+    scheme: default
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.footer
+    - navigation.top
+    - navigation.sections
+    - content.code.copy
+    - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Utama: index.md
+  - "Edit Video":
+      - Pengenalan: edit-video/index.md
+      - "1. Buat akaun GitHub": edit-video/01-github.md
+      - "2. Pasang Git & GitHub CLI": edit-video/02-git.md
+      - "3. Pasang Claude Code": edit-video/03-claude-code.md
+      - "4. Pasang ffmpeg": edit-video/04-ffmpeg.md
+      - "5. Buat repo & folder kerja": edit-video/05-repo.md
+      - "6. Edit video pertama": edit-video/06-edit.md
+      - "7. Simpan kerja ke GitHub": edit-video/07-simpan.md
+      - "Masalah biasa": edit-video/08-masalah.md

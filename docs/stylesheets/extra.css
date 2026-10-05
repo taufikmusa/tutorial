@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap");
+
+:root,
+[data-md-color-scheme="default"] {
+  --navy: #12233d;
+  --ink: #1f2a3a;
+  --ink-soft: #5a6472;
+  --gold: #a9812f;
+  --gold-deep: #8a6a22;
+  --gold-tint: #efe3be;
+  --cream: #f9f7f1;
+  --line: #e8e1cc;
+
+  --md-primary-fg-color: #ffffff;
+  --md-primary-bg-color: #12233d;
+  --md-primary-bg-color--light: #5a6472;
+  --md-accent-fg-color: #a9812f;
+  --md-default-bg-color: #f9f7f1;
+  --md-default-fg-color: #1f2a3a;
+  --md-default-fg-color--light: #5a6472;
+  --md-typeset-color: #1f2a3a;
+  --md-typeset-a-color: #8a6a22;
+  --md-code-bg-color: #f1ece0;
+  --md-text-font: "Inter";
+}
+
+/* ---------- Header & nav ---------- */
+.md-header {
+  background: #fff;
+  color: var(--navy);
+  box-shadow: 0 1px 0 var(--line);
+}
+.md-header__title { font-family: "Cormorant Garamond", serif; font-size: 1.15rem; font-weight: 700; }
+.md-tabs { background: #fff; color: var(--ink-soft); border-bottom: 1px solid var(--line); }
+.md-tabs__link { opacity: 1; font-weight: 600; font-size: 0.7rem; }
+.md-tabs__item--active .md-tabs__link { color: var(--navy); }
+.md-search__form { background: var(--cream); border: 1px solid var(--line); border-radius: 999px; }
+.md-search__input::placeholder { color: var(--ink-soft); }
+.md-footer { background: var(--navy); }
+.md-footer-meta { background: var(--navy); }
+
+/* ---------- Typography ---------- */
+.md-typeset { font-family: "Lora", Georgia, serif; font-size: 0.82rem; line-height: 1.8; }
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  color: var(--navy);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.md-typeset h1 { font-size: 2.4rem; line-height: 1.15; margin-bottom: 0.8em; }
+.md-typeset h2 { font-size: 1.7rem; margin-top: 1.8em; }
+.md-typeset h3 { font-size: 1.3rem; }
+.md-nav, .md-typeset table, .md-typeset .admonition, .md-typeset summary, .md-button, .md-tabs {
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* ---------- Buttons ---------- */
+.md-typeset .md-button {
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  color: var(--navy);
+  background: #fff;
+  font-weight: 600;
+  font-size: 0.78rem;
+  padding: 0.7em 1.4em;
+  text-transform: none;
+}
+.md-typeset .md-button--primary {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--gold-tint);
+}
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #fff;
+}
+
+/* ---------- Admonitions ---------- */
+.md-typeset .admonition, .md-typeset details {
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--gold);
+  background: #fff;
+  box-shadow: none;
+  font-size: 0.78rem;
+}
+.md-typeset .admonition-title, .md-typeset summary { background: var(--gold-tint) !important; color: var(--navy); font-weight: 600; }
+.md-typeset .admonition-title::before, .md-typeset summary::before { background-color: var(--gold-deep) !important; }
+
+/* ---------- Tabs (Windows / Mac) ---------- */
+.md-typeset .tabbed-labels > label { font-family: "Inter", sans-serif; font-weight: 600; }
+.md-typeset .tabbed-set { border: 1px solid var(--line); border-radius: 10px; background: #fff; padding: 0 1em; }
+.md-typeset .highlight code, .md-typeset pre > code { border-radius: 8px; }
+
+/* ---------- Tables ---------- */
+.md-typeset table:not([class]) { border-radius: 10px; border: 1px solid var(--line); background: #fff; box-shadow: none; }
+.md-typeset table:not([class]) th { background: var(--navy); color: var(--gold-tint); }
+
+/* ---------- Cards ---------- */
+.md-typeset .grid.cards > ul > li, .md-typeset .grid > .card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.2em 1.4em;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--gold);
+  box-shadow: 0 8px 24px rgba(18, 35, 61, 0.08);
+  transform: translateY(-2px);
+}
+
+/* ---------- Home hero ---------- */
+.hero { padding: 1.2rem 0 0.5rem; max-width: 34rem; }
+.hero-badge {
+  display: inline-block;
+  background: var(--navy);
+  color: var(--gold-tint);
+  font-family: "Inter", sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.55em 1.1em;
+  border-radius: 999px;
+}
+.md-typeset .hero-title {
+  font-size: clamp(2.4rem, 7vw, 3.6rem);
+  line-height: 1.08;
+  margin: 0.5em 0 0.4em;
+}
+.hero-title .gold { color: var(--gold); }
+.hero-lead { font-style: italic; color: var(--ink-soft); font-size: 0.95rem; }
+.hero-pills { font-family: "Inter", sans-serif; font-size: 0.7rem; color: var(--ink-soft); margin-top: 1.2rem; }
+.hero-pills span::before { content: "•"; color: var(--gold); margin-right: 0.5em; }
+.hero-pills span { margin-right: 1.2em; }
+
+/* ---------- Pill chips for meta ---------- */
+.chip {
+  display: inline-block;
+  font-family: "Inter", sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  background: var(--gold-tint);
+  padding: 0.35em 0.9em;
+  border-radius: 999px;
+  margin-bottom: 0.6rem;
+}
