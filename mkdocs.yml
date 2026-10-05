@@ -1,9 +1,11 @@
 site_name: Tutorial · By Taufik
 site_description: Tutorial howto step by step, untuk beginner.
 site_url: https://tutorial.taufik.fyi/
+copyright: Dikongsi oleh Taufik · <a href="https://simpanemasfizikal.com/" target="_blank" rel="noopener">simpanemasfizikal.com</a>
 
 theme:
   name: material
+  custom_dir: overrides
   language: ms
   palette:
     scheme: default
@@ -39,5 +41,7 @@ markdown_extensions:
 
 nav:
   - Utama: index.md
+  - "Simpan Emas": simpan-emas-public-gold/index.md
   - "Edit Video (Chat)": edit-video-chat/index.md
   - "Edit Video (Claude Code)": edit-video/index.md
+  - "Laman Web Taufik ↗": https://simpanemasfizikal.com/

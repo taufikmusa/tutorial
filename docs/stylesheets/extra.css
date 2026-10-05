@@ -161,3 +161,8 @@
   z-index: 1;
 }
 .md-typeset .grid.cards > ul > li a { text-decoration: none; }
+
+/* ---------- Announcement bar ---------- */
+.md-banner { background: var(--navy); color: #fff; text-align: center; font-family: "Inter", sans-serif; font-size: 0.7rem; }
+.md-banner a, .md-banner a:hover { color: #f2c94c; }
+.md-banner .md-banner__inner { margin: 0.5rem auto; }
