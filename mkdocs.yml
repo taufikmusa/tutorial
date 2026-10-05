@@ -1,33 +1,26 @@
-site_name: Tutorial by Taufik
+site_name: Tutorial · By Taufik
 site_description: Tutorial howto step by step, untuk beginner.
 site_url: https://tutorial.taufik.fyi/
-repo_url: https://github.com/taufikmusa/tutorial
-repo_name: taufikmusa/tutorial
 
 theme:
   name: material
   language: ms
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/weather-night
-        name: Tukar ke dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/weather-sunny
-        name: Tukar ke light mode
+    scheme: default
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - navigation.instant
+    - navigation.tabs
     - navigation.footer
     - navigation.top
+    - navigation.sections
     - content.code.copy
     - search.highlight
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - admonition
@@ -45,7 +38,7 @@ markdown_extensions:
 
 nav:
   - Utama: index.md
-  - "Edit Video dengan Claude Code":
+  - "Edit Video":
       - Pengenalan: edit-video/index.md
       - "1. Buat akaun GitHub": edit-video/01-github.md
       - "2. Pasang Git & GitHub CLI": edit-video/02-git.md

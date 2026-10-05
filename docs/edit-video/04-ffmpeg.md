@@ -1,8 +1,10 @@
-# Step 4: Pasang ffmpeg
+<span class="chip">Langkah 4 / 7</span>
 
-Claude tak edit video secara "klik-klik" macam CapCut. Dia guna **ffmpeg**, enjin edit video percuma yang digunakan di seluruh dunia. Dia boleh potong, gabung, resize, tambah subtitle, buang senyap, tukar format, dan banyak lagi, semuanya melalui arahan.
+# Pasang ffmpeg
 
-Kau pasang sekali je. Lepas tu Claude yang uruskan.
+Claude tidak mengedit video secara "klik-klik" seperti CapCut. Beliau menggunakan **ffmpeg**, enjin edit video percuma yang digunakan di seluruh dunia. Dengan ffmpeg, Claude boleh memotong, menggabung, resize, menambah subtitle, membuang bahagian senyap, menukar format, dan banyak lagi.
+
+Anda hanya perlu pasang sekali. Selepas itu, Claude yang menguruskannya.
 
 === "Windows"
 
@@ -16,12 +18,12 @@ Kau pasang sekali je. Lepas tu Claude yang uruskan.
     brew install ffmpeg
     ```
 
-**Tutup terminal dan buka balik**, kemudian semak:
+**Tutup terminal dan buka semula**, kemudian semak:
 
 ```bash
 ffmpeg -version
 ```
 
-Kalau keluar maklumat versi, jadi.
+Jika maklumat versi dipaparkan, bermakna berjaya.
 
-[Step seterusnya: Buat repo & folder kerja :material-arrow-right:](05-repo.md){ .md-button }
+[Langkah seterusnya: Buat repo & folder kerja →](05-repo.md){ .md-button }

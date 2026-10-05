@@ -1,21 +1,23 @@
-# Step 2: Pasang Git & GitHub CLI
+<span class="chip">Langkah 2 / 7</span>
 
-Dua benda ni yang sambungkan komputer kau dengan GitHub.
+# Pasang Git & GitHub CLI
 
-- **Git** = sistem simpan versi kerja kau
-- **GitHub CLI (`gh`)** = alat untuk login ke GitHub dari terminal, tanpa pening password
+Dua alat ini yang menghubungkan komputer anda dengan GitHub.
+
+- **Git** = sistem menyimpan versi kerja anda
+- **GitHub CLI (`gh`)** = alat untuk log masuk ke GitHub dari terminal, tanpa pening urus password
 
 === "Windows"
 
-    **Buka terminal dulu:** tekan butang Windows, taip `PowerShell`, tekan Enter.
+    **Buka terminal dahulu:** tekan butang Windows, taip `PowerShell`, kemudian tekan Enter.
 
-    Copy-paste arahan ni, tekan Enter:
+    Copy-paste arahan ini dan tekan Enter:
 
     ```powershell
     winget install --id Git.Git -e
     ```
 
-    Lepas siap, **tutup PowerShell dan buka balik** (penting, supaya Windows kenal Git baru tu). Pastu pasang GitHub CLI:
+    Selepas siap, **tutup PowerShell dan buka semula** (penting, supaya Windows mengenali Git yang baru dipasang). Kemudian pasang GitHub CLI:
 
     ```powershell
     winget install --id GitHub.cli -e
@@ -25,50 +27,50 @@ Dua benda ni yang sambungkan komputer kau dengan GitHub.
 
 === "Mac"
 
-    **Buka terminal:** tekan `Cmd + Space`, taip `Terminal`, tekan Enter.
+    **Buka terminal:** tekan `Cmd + Space`, taip `Terminal`, kemudian tekan Enter.
 
-    Pasang Homebrew dulu (pengurus aplikasi untuk Mac). Copy-paste arahan dari [brew.sh](https://brew.sh), tekan Enter, dan ikut apa dia suruh (dia akan minta password Mac kau).
+    Pasang Homebrew dahulu (pengurus aplikasi untuk Mac). Copy arahan daripada [brew.sh](https://brew.sh), tampal dalam terminal, dan ikut apa yang diminta. Mac akan meminta password anda.
 
-    Lepas siap, pasang Git dan GitHub CLI:
+    Selepas siap, pasang Git dan GitHub CLI:
 
     ```bash
     brew install git gh
     ```
 
-## Semak dah jadi ke belum
+## Semak sama ada berjaya
 
 ```bash
 git --version
 gh --version
 ```
 
-Kalau keluar nombor versi untuk kedua-duanya, jadi.
+Jika nombor versi muncul untuk kedua-duanya, bermakna berjaya.
 
-## Beritahu Git siapa kau
+## Beritahu Git siapa anda
 
-Tukar nama dan email dengan yang kau guna kat GitHub:
+Gantikan nama dan email dengan yang anda gunakan di GitHub:
 
 ```bash
-git config --global user.name "Nama Kau"
-git config --global user.email "emailkau@contoh.com"
+git config --global user.name "Nama Anda"
+git config --global user.email "emailanda@contoh.com"
 ```
 
-## Login ke GitHub
+## Log masuk ke GitHub
 
 ```bash
 gh auth login
 ```
 
-Dia akan tanya beberapa soalan. Jawab macam ni:
+Beberapa soalan akan muncul. Jawab seperti berikut:
 
 1. **Where do you use GitHub?** → `GitHub.com`
 2. **Preferred protocol** → `HTTPS`
 3. **Authenticate Git with your GitHub credentials?** → `Yes`
 4. **How would you like to authenticate?** → `Login with a web browser`
 
-Dia akan tunjuk **kod 8 huruf**. Copy kod tu, tekan Enter, browser akan terbuka. Tampal kod, klik **Authorize**.
+Terminal akan memaparkan **kod 8 aksara**. Salin kod itu, tekan Enter, dan browser akan terbuka. Tampal kod tersebut, kemudian klik **Authorize**.
 
-!!! success "Siap bila"
-    Terminal tulis `Logged in as <username kau>`.
+!!! success "Anda berjaya jika"
+    Terminal memaparkan `Logged in as <username anda>`.
 
-[Step seterusnya: Pasang Claude Code :material-arrow-right:](03-claude-code.md){ .md-button }
+[Langkah seterusnya: Pasang Claude Code →](03-claude-code.md){ .md-button }

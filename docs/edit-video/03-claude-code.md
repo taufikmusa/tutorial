@@ -1,9 +1,11 @@
-# Step 3: Pasang Claude Code
+<span class="chip">Langkah 3 / 7</span>
 
-Ni bahagian utama. Claude Code ialah Claude yang boleh bekerja terus dalam folder komputer kau: baca fail, jalankan arahan, dan edit benda untuk kau.
+# Pasang Claude Code
 
-!!! warning "Pastikan kau ada langganan berbayar"
-    Kau perlu akaun Claude **Pro atau Max**. Daftar/langgan kat [claude.ai](https://claude.ai) dulu kalau belum.
+Ini bahagian terpenting. Claude Code ialah Claude yang boleh bekerja terus di dalam folder komputer anda: membaca fail, menjalankan arahan, dan mengedit untuk anda.
+
+!!! warning "Pastikan anda ada langganan berbayar"
+    Anda memerlukan akaun Claude **Pro atau Max**. Jika belum ada, daftar di [claude.ai](https://claude.ai) terlebih dahulu.
 
 === "Windows"
 
@@ -21,33 +23,33 @@ Ni bahagian utama. Claude Code ialah Claude yang boleh bekerja terus dalam folde
     curl -fsSL https://claude.ai/install.sh | bash
     ```
 
-Lepas siap, **tutup terminal dan buka balik**, kemudian semak:
+Setelah siap, **tutup terminal dan buka semula**, kemudian semak:
 
 ```bash
 claude --version
 ```
 
-## Login kali pertama
+## Log masuk kali pertama
 
 ```bash
 claude
 ```
 
-1. Dia akan tanya pilihan tema (gelap/cerah). Pilih mana-mana.
-2. Dia buka browser untuk login. Login dengan akaun Claude kau dan klik **Authorize**.
-3. Balik ke terminal. Kalau nampak kotak input untuk kau taip, jadi.
+1. Claude akan bertanya pilihan tema (gelap atau cerah). Pilih mana-mana.
+2. Browser akan terbuka untuk log masuk. Gunakan akaun Claude anda dan klik **Authorize**.
+3. Kembali ke terminal. Jika kotak input untuk menaip sudah muncul, bermakna berjaya.
 
 Cuba taip:
 
 ```text
-Hai Claude, kau boleh dengar aku?
+Hai Claude, boleh dengar saya?
 ```
 
-Kalau dia jawab, Claude Code kau dah hidup. Taip `/exit` untuk keluar buat masa ni.
+Jika Claude menjawab, Claude Code anda sudah aktif. Taip `/exit` untuk keluar buat masa ini.
 
-!!! tip "Cara guna asas"
-    - Taip arahan biasa dalam bahasa Melayu pun boleh
-    - Bila Claude nak jalankan sesuatu, dia **minta kebenaran** dulu. Baca, dan pilih Yes kalau kau setuju.
-    - `Ctrl + C` untuk hentikan, `/exit` untuk keluar
+!!! tip "Cara guna yang asas"
+    - Anda boleh taip arahan biasa, dalam Bahasa Melayu pun boleh
+    - Sebelum menjalankan sesuatu, Claude akan **meminta kebenaran** anda. Baca dahulu, dan pilih Yes jika anda bersetuju.
+    - `Ctrl + C` untuk menghentikan, `/exit` untuk keluar
 
-[Step seterusnya: Pasang ffmpeg :material-arrow-right:](04-ffmpeg.md){ .md-button }
+[Langkah seterusnya: Pasang ffmpeg →](04-ffmpeg.md){ .md-button }

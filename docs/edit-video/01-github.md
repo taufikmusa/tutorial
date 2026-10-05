@@ -1,15 +1,17 @@
-# Step 1: Buat akaun GitHub
+<span class="chip">Langkah 1 / 7</span>
 
-GitHub ni macam Google Drive untuk projek. Kita guna dia untuk simpan kerja kau supaya tak hilang, dan boleh share.
+# Buat akaun GitHub
+
+GitHub ini ibarat Google Drive untuk projek. Kita guna untuk menyimpan kerja anda supaya tidak hilang, dan mudah dikongsi.
 
 1. Buka [github.com/signup](https://github.com/signup)
 2. Masukkan **email**, **password**, dan pilih **username**
-    - Username ni akan jadi sebahagian link kau, jadi pilih yang kemas. Contoh: `ahmad-edits`
-3. Ikut arahan verify (puzzle kecil) dan masukkan kod yang dihantar ke email kau
-4. Bila ditanya soalan survey, boleh **Skip**
-5. Pilih pelan **Free**. Cukup untuk kita.
+    - Username ini akan jadi sebahagian daripada pautan anda, jadi pilih yang kemas. Contoh: `ahmad-edits`
+3. Selesaikan pengesahan (puzzle kecil) dan masukkan kod yang dihantar ke email anda
+4. Jika ada soalan survey, anda boleh pilih **Skip**
+5. Pilih pelan **Free**. Memadai untuk tutorial ini.
 
-!!! success "Siap bila"
-    Kau nampak page utama GitHub dengan username kau kat penjuru atas kanan.
+!!! success "Anda berjaya jika"
+    Anda nampak halaman utama GitHub dengan username anda di penjuru kanan atas.
 
-[Step seterusnya: Pasang Git & GitHub CLI :material-arrow-right:](02-git.md){ .md-button }
+[Langkah seterusnya: Pasang Git & GitHub CLI →](02-git.md){ .md-button }

@@ -1,10 +1,12 @@
-# Step 5: Buat repo & folder kerja
+<span class="chip">Langkah 5 / 7</span>
 
-**Repo** = folder projek yang disimpan kat GitHub. Kita buat satu repo khas untuk kerja edit video kau.
+# Buat repo & folder kerja
+
+**Repo** ialah folder projek yang disimpan di GitHub. Kita akan buat satu repo khas untuk kerja edit video anda.
 
 ## Buat repo
 
-Dalam terminal, pergi ke tempat kau nak letak projek. Contoh, folder Documents:
+Dalam terminal, pergi ke lokasi yang anda mahu simpan projek. Sebagai contoh, folder Documents:
 
 === "Windows"
 
@@ -18,32 +20,32 @@ Dalam terminal, pergi ke tempat kau nak letak projek. Contoh, folder Documents:
     cd ~/Documents
     ```
 
-Lepas tu buat repo (private, jadi cuma kau boleh nampak) dan terus download ke komputer:
+Kemudian buat repo (private, jadi hanya anda yang boleh melihatnya) dan terus muat turun ke komputer:
 
 ```bash
 gh repo create video-saya --private --clone
 ```
 
-Masuk ke dalam folder tu:
+Masuk ke dalam folder tersebut:
 
 ```bash
 cd video-saya
 ```
 
-## Buat folder untuk video
+## Sediakan folder untuk video
 
 ```bash
 mkdir mentah siap
 ```
 
-- `mentah` = letak video asal kau kat sini
-- `siap` = Claude simpan video yang dah siap edit kat sini
+- `mentah` = tempat anda letak video asal
+- `siap` = tempat Claude simpan video yang sudah diedit
 
-Sekarang **copy satu video pendek** (30 saat sampai 2 minit cukup) ke dalam folder `mentah`. Kau boleh drag and drop guna File Explorer / Finder. Folder `video-saya` ada dalam Documents.
+Sekarang **salin satu video pendek** (30 saat hingga 2 minit memadai) ke dalam folder `mentah`. Anda boleh drag and drop menggunakan File Explorer atau Finder. Folder `video-saya` terletak di dalam Documents.
 
-## Halang video dari masuk GitHub
+## Halang video daripada masuk GitHub
 
-Fail video besar, dan GitHub tak benarkan fail lebih 100MB. Kita suruh Git **abaikan** folder video:
+Fail video bersaiz besar, dan GitHub tidak membenarkan fail melebihi 100MB. Jadi kita arahkan Git **mengabaikan** folder video:
 
 === "Windows"
 
@@ -57,7 +59,7 @@ Fail video besar, dan GitHub tak benarkan fail lebih 100MB. Kita suruh Git **aba
     printf "mentah/\nsiap/\n" > .gitignore
     ```
 
-!!! info "Jadi apa yang masuk GitHub?"
-    Nota projek dan arahan kau. Video kekal dalam komputer kau je. Itu memang yang kita nak.
+!!! info "Jadi apa yang masuk ke GitHub?"
+    Hanya nota projek dan arahan anda. Video kekal di dalam komputer anda. Itulah yang kita mahu.
 
-[Step seterusnya: Edit video pertama :material-arrow-right:](06-edit.md){ .md-button }
+[Langkah seterusnya: Edit video pertama →](06-edit.md){ .md-button }

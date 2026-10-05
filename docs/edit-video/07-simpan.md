@@ -1,20 +1,22 @@
-# Step 7: Simpan kerja ke GitHub
+<span class="chip">Langkah 7 / 7</span>
 
-Bahagian ni yang buat kau tak hilang kerja walaupun komputer rosak.
+# Simpan kerja ke GitHub
 
-## Suruh Claude buat
+Langkah ini memastikan kerja anda selamat, walaupun komputer rosak.
 
-Paling senang, suruh Claude yang uruskan:
+## Minta Claude uruskan
+
+Cara paling mudah, minta Claude yang buatkan:
 
 ```text
-Simpan semua perubahan dalam projek ni ke GitHub. Tulis commit message yang ringkas dalam bahasa Melayu.
+Simpan semua perubahan dalam projek ini ke GitHub. Tulis commit message yang ringkas dalam Bahasa Melayu.
 ```
 
-Dia akan minta kebenaran untuk setiap arahan Git. Baca dan pilih Yes.
+Claude akan meminta kebenaran untuk setiap arahan Git. Baca dan pilih Yes.
 
 ## Atau buat sendiri
 
-Keluar dari Claude (`/exit`), kemudian:
+Keluar daripada Claude (`/exit`), kemudian:
 
 ```bash
 git add .
@@ -22,16 +24,16 @@ git commit -m "Edit video pertama"
 git push
 ```
 
-## Semak kat GitHub
+## Semak di GitHub
 
-Buka `github.com/<username kau>/video-saya`. Kau akan nampak fail `.gitignore` dan apa-apa nota yang ada. Folder video tak muncul sebab kita dah suruh Git abaikan.
+Buka `github.com/<username anda>/video-saya`. Anda akan nampak fail `.gitignore` dan sebarang nota yang ada. Folder video tidak muncul kerana kita sudah arahkan Git mengabaikannya.
 
 !!! success "Tahniah!"
-    Kau dah ada Claude Code, GitHub, dan boleh edit video guna arahan biasa. Mulai sekarang, buka terminal, `cd` ke folder `video-saya`, taip `claude`, dan suruh dia buat kerja.
+    Anda kini ada Claude Code, GitHub, dan boleh mengedit video menggunakan arahan biasa. Mulai sekarang, buka terminal, `cd` ke folder `video-saya`, taip `claude`, dan minta Claude buat kerja.
 
-## Seterusnya
+## Selepas ini
 
-- Tulis arahan tetap (contoh: format TikTok kegemaran kau) dalam fail bernama `CLAUDE.md` dalam folder projek. Claude akan baca fail ni setiap kali kau buka dia, jadi kau tak payah ulang arahan.
-- Cuba suruh Claude tambah subtitle, tukar background music, atau buat thumbnail.
+- Tulis arahan tetap anda (contohnya format TikTok kegemaran) dalam fail bernama `CLAUDE.md` di dalam folder projek. Claude akan membaca fail ini setiap kali anda membukanya, jadi anda tak perlu mengulang arahan.
+- Cuba minta Claude menambah subtitle, menukar muzik latar, atau menghasilkan thumbnail.
 
-[Masalah biasa :material-arrow-right:](08-masalah.md){ .md-button }
+[Masalah biasa →](08-masalah.md){ .md-button }
