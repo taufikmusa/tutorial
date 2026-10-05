@@ -29,32 +29,34 @@ Bahasa Melayu Malaysia, **profesional tetapi santai**.
 ## Struktur fail
 
 ```
-mkdocs.yml                 # tetapan tapak + nav (menu)
+mkdocs.yml                 # tetapan tapak + nav (menu atas)
 docs/
   index.md                 # homepage (hero + kad tutorial)
   CNAME                    # JANGAN ubah
   stylesheets/extra.css    # tema Nukilan (navy/gold/cream)
   <slug-tutorial>/
-    index.md               # pengenalan tutorial
-    01-<slug>.md           # langkah 1
-    02-<slug>.md           # langkah 2
-    ...
-    NN-masalah.md          # masalah biasa
+    index.md               # SATU halaman penuh untuk tutorial itu
 ```
 
-Tutorial sedia ada: `docs/edit-video/` (Edit Video dengan Claude Code, telefon sahaja).
+**Setiap tutorial ialah SATU halaman panjang** (`docs/<slug>/index.md`), bukan banyak halaman langkah. Pembaca skrol dari atas ke bawah, dan menu di sebelah kanan (daftar kandungan, dijana daripada tajuk `##` dan `###`) membantu mereka melompat. Jangan buat butang "Langkah seterusnya" atau halaman berasingan per langkah.
+
+Tutorial sedia ada: `docs/edit-video/index.md` (Tiru Gaya Video dengan Claude Code, telefon sahaja).
 
 ## Checklist bila tambah tutorial baru
 
 Setiap tutorial baru **wajib** lengkapkan ketiga-tiga ini, atau ia tidak akan kelihatan di tapak:
 
-1. **Buat folder** `docs/<slug-tutorial>/` (slug huruf kecil, guna sengkang, tanpa ruang) dengan `index.md` dan satu fail per langkah, dinomborkan `01-`, `02-`, dan seterusnya.
-2. **Daftar dalam `mkdocs.yml` bawah `nav:`**, selepas "Utama", dengan format sama seperti tutorial sedia ada:
+1. **Buat `docs/<slug>/index.md`** (slug huruf kecil, guna sengkang, tanpa ruang). Mulakan dengan front matter ini supaya tiada menu kiri dan tiada butang sebelum/seterusnya:
    ```yaml
-   - "Nama Pendek Tutorial":
-       - Pengenalan: <slug>/index.md
-       - "1. Tajuk langkah": <slug>/01-<slug-langkah>.md
-       - "Masalah biasa": <slug>/NN-masalah.md
+   ---
+   hide:
+     - navigation
+     - footer
+   ---
+   ```
+2. **Daftar dalam `mkdocs.yml` bawah `nav:`**, selepas "Utama", satu baris sahaja:
+   ```yaml
+   - "Nama Pendek": <slug>/index.md
    ```
 3. **Tambah kad di `docs/index.md`** dalam blok `<div class="grid cards" markdown>`. Letak tutorial terbaru **di atas**. Salin format kad sedia ada:
    ```markdown
@@ -64,39 +66,42 @@ Setiap tutorial baru **wajib** lengkapkan ketiga-tiga ini, atau ia tidak akan ke
 
        Satu atau dua ayat ringkas tentang apa yang pembaca akan dapat.
 
-       *N langkah · lebih kurang X minit*
+       *Satu halaman · anggaran masa · telefon sahaja*
 
        [Baca tutorial →](slug/index.md)
    ```
    Kad mesti ada pautan kerana seluruh kad dijadikan klik melalui pautan itu.
 
-## Templat satu halaman langkah
+## Susunan satu halaman tutorial
 
 ```markdown
-<span class="chip">Langkah N / TOTAL</span>
+<span class="chip">Kategori</span>
 
-# Tajuk Langkah
+# Tajuk Tutorial
 
-Satu dua ayat: apa langkah ini dan kenapa perlu.
+Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa.
 
-1. Tindakan pertama
-2. Tindakan kedua
-
-!!! success "Anda berjaya jika"
-    Apa yang pembaca patut nampak.
-
-[Langkah seterusnya: Tajuk →](NN-slug.md){ .md-button }
+## Apa yang anda akan dapat
+## Bagaimana ia berfungsi
+## Apa yang perlu disediakan
+## <Bahagian utama, satu ## per fasa>
+### 1. Langkah kecil
+### 2. Langkah kecil
+## Masalah biasa
 ```
 
-Halaman `index.md` tutorial mesti ada: apa yang pembaca akan dapat, apa yang perlu disediakan, dan jadual "Peta perjalanan" (langkah, apa yang dibuat, anggaran masa), serta butang ke langkah 1 dengan `{ .md-button .md-button--primary }`.
-
-Halaman "Masalah biasa" guna format `??? question "Soalan"` (boleh lipat).
+- Guna `##` untuk bahagian besar dan `###` untuk langkah kecil, supaya menu kanan kemas.
+- Setiap langkah: satu tindakan jelas, kemudian `!!! success "Anda berjaya jika"` yang menyatakan apa yang pembaca patut nampak.
+- Arahan (prompt) untuk disalin: letak dalam blok ```` ```text ```` supaya ada butang copy.
+- Bahagian "Masalah biasa" guna `??? question "Soalan"` (boleh lipat).
+- Jangan letak "Langkah N / TOTAL" atau butang "Langkah seterusnya".
 
 ## Komponen yang boleh digunakan
 
 - Admonition: `!!! tip`, `!!! warning`, `!!! info`, `!!! success`
 - Boleh lipat: `??? question "..."`, `??? tip "..."`
 - Tab Windows/Mac: `=== "Windows"` (hanya jika benar-benar perlu arahan komputer)
+- Jangan janjikan perkara yang Claude tidak boleh buat. Claude menganalisis video melalui frame dan ukuran masa, bukan menonton, jadi tiru gaya bersifat anggaran.
 - Blok kod dengan butang copy: gunakan ``` dan nyatakan bahasa (`text`, `bash`)
 - Jadual dan senarai bernombor
 
@@ -113,7 +118,8 @@ Tema mengikut Nukilan: navy `#12233D`, gold `#A9812F`, latar cream. Tajuk Cormor
 ## Sebelum buat Pull Request
 
 - [ ] Nada: tiada "aku/kau/korang", guna saya/anda/kita
-- [ ] Folder tutorial + `mkdocs.yml` nav + kad di `docs/index.md` semuanya dikemas kini
-- [ ] Semua pautan antara halaman guna laluan relatif yang betul (`01-slug.md`, bukan URL penuh)
+- [ ] `docs/<slug>/index.md` + satu baris `nav` dalam `mkdocs.yml` + kad di `docs/index.md` semuanya dikemas kini
+- [ ] Front matter `hide: navigation, footer` ada pada halaman tutorial
+- [ ] Pautan dalam halaman guna anchor (`#tajuk-bahagian`) atau laluan relatif yang betul, bukan URL penuh
 - [ ] Setiap langkah ada "Anda berjaya jika"
 - [ ] Tajuk PR dalam Bahasa Melayu dan ringkas, dan beritahu Taufik untuk semak tab Actions selepas merge

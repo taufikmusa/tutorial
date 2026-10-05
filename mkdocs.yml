@@ -16,6 +16,7 @@ theme:
     - navigation.footer
     - navigation.top
     - navigation.sections
+    - toc.follow
     - content.code.copy
     - search.highlight
 
@@ -38,13 +39,4 @@ markdown_extensions:
 
 nav:
   - Utama: index.md
-  - "Edit Video":
-      - Pengenalan: edit-video/index.md
-      - "1. Buat akaun GitHub": edit-video/01-github.md
-      - "2. Langgan Claude": edit-video/02-claude.md
-      - "3. Buat repo": edit-video/03-repo.md
-      - "4. Muat naik video": edit-video/04-video.md
-      - "5. Sambung Claude ke GitHub": edit-video/05-sambung.md
-      - "6. Edit video pertama": edit-video/06-edit.md
-      - "7. Ambil video siap": edit-video/07-ambil.md
-      - "Masalah biasa": edit-video/08-masalah.md
+  - "Edit Video": edit-video/index.md
