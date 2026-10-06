@@ -12,7 +12,7 @@ hide:
 
 <p class="hero-lead">Panduan howto yang ditulis langkah demi langkah. Tak perlu latar belakang teknikal. Ikut sahaja, kita siapkan sama-sama.</p>
 
-[Mulakan Tutorial Terkini →](edit-video-chat/index.md){ .md-button .md-button--primary }
+[Mulakan Tutorial Terkini →](simpan-emas-public-gold/index.md){ .md-button .md-button--primary }
 [Lihat Semua Tutorial](#tutorial-terkini){ .md-button }
 
 <p class="hero-pills"><span>Percuma</span><span>Untuk beginner</span><span>Step by step</span></p>
@@ -22,6 +22,16 @@ hide:
 ## Tutorial Terkini { #tutorial-terkini }
 
 <div class="grid cards" markdown>
+
+- <span class="chip">Emas</span>
+
+    **[Cara Simpan Emas di Public Gold](simpan-emas-public-gold/index.md)**
+
+    Daftar akaun, pasang aplikasi, sahkan akaun, dan buat belian emas pertama anda bermula serendah RM100. Empat langkah mudah, dari telefon sahaja.
+
+    *Satu halaman · lebih kurang 20 minit · telefon sahaja*
+
+    [Baca tutorial →](simpan-emas-public-gold/index.md)
 
 - <span class="chip">Claude Chat</span>
 
@@ -44,3 +54,9 @@ hide:
     [Baca tutorial →](edit-video/index.md)
 
 </div>
+
+## Lawati Laman Web Saya
+
+Mahu tahu lebih lanjut tentang simpanan emas, harga semasa, dan panduan untuk pemula? Singgah ke laman web saya.
+
+[Lawati simpanemasfizikal.com →](https://simpanemasfizikal.com/){ .md-button .md-button--primary target="_blank" rel="noopener" }
