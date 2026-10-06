@@ -8,7 +8,7 @@ hide:
 
 # Cara Share Slide dalam Zoom Meeting
 
-Tutorial ini untuk anda yang mahu present slide (PowerPoint, Keynote atau Google Slides) dalam Zoom meeting, guna **laptop atau PC Windows** dan **MacBook**. Kita mulakan dari asas, jadi tak perlu pernah share skrin sebelum ini.
+Tutorial ini untuk anda yang mahu present slide (PowerPoint, Keynote, Google Slides atau Canva) dalam Zoom meeting, guna **laptop atau PC Windows** dan **MacBook**. Kita mulakan dari asas, jadi tak perlu pernah share skrin sebelum ini.
 
 !!! info "Tutorial ini untuk komputer"
     Langkah di bawah dibuat di laptop atau PC. Jika anda guna telefon, cara share skrin berbeza dan tidak dibincangkan di sini.
@@ -26,14 +26,14 @@ Selepas selesai, anda boleh:
 
 1. Anda **join meeting** dalam app Zoom
 2. Anda tekan **Share Screen** dan pilih skrin anda
-3. Anda **mulakan slideshow** dalam PowerPoint, Keynote atau Google Slides
+3. Anda **mulakan slideshow** dalam PowerPoint, Keynote, Google Slides atau Canva
 4. Bila habis, anda tekan **Stop Share**
 
 ## Apa yang perlu disediakan
 
 - Laptop atau PC **Windows**, atau **MacBook**
 - **App Zoom** yang sudah di-install, dan anda sudah login
-- Slide yang sudah siap dan boleh dibuka
+- Slide yang sudah siap dan boleh dibuka. Jika guna Canva, pastikan anda sudah login ke akaun Canva anda.
 - Link atau ID meeting
 - Internet yang stabil
 
@@ -146,6 +146,31 @@ Untuk bergerak antara slide, tekan **anak panah kanan** (seterusnya) dan **anak 
 !!! success "Anda berjaya jika"
     Slide anda memenuhi skrin, dan peserta lain boleh nampaknya. Anda boleh minta seorang peserta mengesahkan.
 
+#### Kalau slide anda dalam Canva
+
+Canva berjalan dalam browser (atau app Canva), jadi caranya sedikit berbeza. Pastikan anda **sudah menekan Share dalam Zoom dahulu** (langkah 5), kemudian:
+
+1. Buka design anda di [canva.com](https://www.canva.com) dan pastikan anda sudah login
+2. Tekan butang **Present** di penjuru kanan atas
+3. Pilih **Present** untuk paparan skrin penuh. Jika mahu nota presenter, pilih **Presenter view**.
+4. Tekan **anak panah kanan** atau **Space** untuk slide seterusnya, dan **anak panah kiri** untuk kembali
+5. Tekan `Esc` untuk keluar daripada mod present
+
+!!! tip "Slide Canva ada animasi, video atau muzik?"
+    Masa memilih skrin dalam langkah 5, tick **Share sound** dan **Optimize for video clip**, supaya bunyi dan video berjalan lancar untuk peserta.
+
+!!! tip "Simpan salinan sandaran"
+    Canva perlukan internet. Sebelum meeting, download slide anda sebagai **PDF** atau **PowerPoint** (melalui **Share**, kemudian **Download**), supaya anda boleh teruskan walaupun internet bermasalah.
+
+!!! warning "Guna Presenter view dengan dua monitor"
+    Presenter view menunjukkan nota dan slide seterusnya kepada anda sahaja. Pastikan Zoom share **skrin yang memaparkan slide**, bukan skrin yang memaparkan nota.
+
+!!! info "Shortcut dan nama butang boleh berubah"
+    Canva sentiasa dikemas kini. Jika butang **Present** tidak kelihatan di tempat yang sama, cari di bar atas design anda.
+
+!!! success "Anda berjaya jika"
+    Slide Canva anda memenuhi skrin, dan peserta lain boleh nampaknya.
+
 ### 7. Berhenti share
 
 Bila presentation habis:
@@ -177,6 +202,9 @@ Bila presentation habis:
 
 ??? question "Bunyi atau video dalam slide tidak kedengaran"
     Stop share dan mulakan semula. Kali ini, tick **Share sound** dan **Optimize for video clip** sebelum menekan **Share**.
+
+??? question "Slide Canva tersangkut atau animasi tidak lancar"
+    Semak sambungan internet anda, kemudian tutup tab atau app lain yang berat. Jika masih tidak lancar, keluar daripada mod present, dan present semula daripada fail **PDF** atau **PowerPoint** yang sudah di-download sebagai sandaran.
 
 ??? question "Slide tidak memenuhi skrin"
     Pastikan anda mulakan **Slide Show** (bukan hanya buka fail), dan anda sudah memilih skrin yang betul jika ada dua monitor.
