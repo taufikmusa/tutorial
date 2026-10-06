@@ -2,9 +2,9 @@
 
 Skill `tutorial-taufik-fyi-chat` membantu Claude (sembang biasa) menyediakan draf tutorial baharu dalam format tutorial.taufik.fyi.
 
-## Cara pasang
+## Cara install
 
-1. Muat turun fail `tutorial-taufik-fyi-chat.zip` daripada folder ini (buka fail di GitHub, kemudian tekan **Download**)
+1. Download fail `tutorial-taufik-fyi-chat.zip` daripada folder ini (buka fail di GitHub, kemudian tekan **Download**)
 2. Buka [claude.ai](https://claude.ai) di browser
 3. Pergi ke **Settings**, kemudian **Capabilities**, dan cari bahagian **Skills**
 4. Tekan untuk **upload skill** dan pilih fail zip tadi

@@ -166,3 +166,63 @@
 .md-banner { background: var(--navy); color: #fff; text-align: center; font-family: "Inter", sans-serif; font-size: 0.7rem; }
 .md-banner a, .md-banner a:hover { color: #f2c94c; }
 .md-banner .md-banner__inner { margin: 0.5rem auto; }
+
+/* ---------- WhatsApp card (top of every page) ---------- */
+.md-typeset a.wa-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.8rem;
+  background: #fff;
+  border: 2px solid var(--navy);
+  border-radius: 14px;
+  box-shadow: 4px 4px 0 var(--navy);
+  padding: 0.6rem 1rem 0.6rem 0.7rem;
+  margin: 0.2rem 0 1.4rem;
+  text-decoration: none;
+  color: var(--navy);
+  font-family: "Inter", sans-serif;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.md-typeset a.wa-top:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--navy); color: var(--navy); }
+.wa-top__icon {
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  flex: none;
+  border-radius: 50%;
+  background: #25d366;
+  box-shadow: 0 0 0 5px rgba(37, 211, 102, 0.18);
+}
+.wa-top__icon svg { width: 1.4rem; height: 1.4rem; fill: #fff; }
+.wa-top__text { display: flex; flex-direction: column; line-height: 1.25; }
+.wa-top__chip {
+  align-self: flex-start;
+  background: var(--gold-tint);
+  color: var(--gold-deep);
+  font-size: 0.55rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.15em 0.6em;
+  border-radius: 6px;
+}
+.wa-top__number { font-size: 1.15rem; font-weight: 800; letter-spacing: -0.01em; margin-top: 0.15rem; }
+.wa-top__hint { font-size: 0.58rem; color: var(--ink-soft); }
+
+/* ---------- WhatsApp floating button ---------- */
+.wa-float {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  width: 3.4rem;
+  height: 3.4rem;
+  border-radius: 50%;
+  background: #25d366;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+.wa-float svg { width: 1.8rem; height: 1.8rem; fill: #fff; }
+.wa-float:hover { transform: scale(1.06); }

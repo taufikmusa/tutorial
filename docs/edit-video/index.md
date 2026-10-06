@@ -10,7 +10,7 @@ hide:
 
 Anda ada video yang anda suka gayanya? Lampirkan video itu, lampirkan rakaman anda sendiri, tambah B-roll, taip **satu arahan**, dan Claude akan edit video anda supaya bergaya sama. Semuanya dari **telefon**, tanpa komputer.
 
-Tutorial ini untuk anda yang **belum ada Claude** dan **belum ada akaun GitHub**. Kita mulakan dari kosong. Skrol sahaja ke bawah, atau guna menu di sebelah kanan untuk melompat ke bahagian tertentu.
+Tutorial ini untuk anda yang **belum ada Claude** dan **belum ada akaun GitHub**. Kita mulakan dari kosong.
 
 ## Apa yang anda akan dapat
 
@@ -18,7 +18,7 @@ Anda lampirkan tiga jenis video dalam sembang Claude, kemudian hantar satu araha
 
 > "Tiru gaya video rujukan ini dan terapkan pada video rakaman saya. Selitkan B-roll yang saya lampirkan."
 
-Beberapa minit kemudian, video siap anda tersedia untuk dimuat turun.
+Beberapa minit kemudian, video siap anda tersedia untuk di-download.
 
 ## Bagaimana ia berfungsi
 
@@ -27,7 +27,7 @@ Claude Code di telefon berjalan di **awan (cloud)**, bukan di dalam telefon anda
 1. **Anda** lampirkan video rujukan, video rakaman dan B-roll dalam sembang
 2. **Anda** hantar satu arahan lengkap
 3. **Claude** menganalisis gaya video rujukan, kemudian mengedit video anda
-4. **Anda** muat turun hasilnya
+4. **Anda** download hasilnya
 
 ## Apa yang perlu disediakan
 
@@ -57,9 +57,9 @@ GitHub ibarat Google Drive untuk projek. Di sinilah Claude menyimpan video siap 
 !!! success "Anda berjaya jika"
     Anda nampak halaman utama GitHub dengan ikon profil anda di penjuru atas.
 
-### 2. Langgan Claude & pasang aplikasi
+### 2. Langgan Claude & install aplikasi
 
-1. Pasang aplikasi **Claude** daripada App Store (iPhone) atau Google Play (Android)
+1. Install aplikasi **Claude** daripada App Store (iPhone) atau Google Play (Android)
 2. Buka aplikasi dan daftar akaun. Anda boleh guna email atau akaun Google/Apple.
 3. Langgan pelan **Pro** (atau Max). Anda boleh buat melalui aplikasi, atau melalui [claude.ai](https://claude.ai) di browser.
 
@@ -89,8 +89,8 @@ GitHub ibarat Google Drive untuk projek. Di sinilah Claude menyimpan video siap 
 
 1. Buka aplikasi **Claude**, pergi ke tab **Code**
 2. Tekan untuk **menyambung ke GitHub** (Connect GitHub)
-3. Browser akan terbuka. Log masuk ke GitHub jika diminta, dan tekan **Authorize**
-4. Pasang **Claude GitHub App** apabila diminta. Pada bahagian repositori, pilih **Only select repositories**, kemudian pilih `video-saya`. Tekan **Install**.
+3. Browser akan terbuka. Login ke GitHub jika diminta, dan tekan **Authorize**
+4. Install **Claude GitHub App** apabila diminta. Pada bahagian repositori, pilih **Only select repositories**, kemudian pilih `video-saya`. Tekan **Install**.
 5. Kembali ke aplikasi Claude dan pilih repo **video-saya** untuk memulakan sesi baharu
 
 !!! tip "Kenapa pilih repo tertentu sahaja?"
@@ -110,7 +110,7 @@ Sebelum menghantar arahan, siapkan tiga jenis video ini dalam galeri telefon and
 | **3. B-roll** | Klip tambahan untuk diselitkan (produk, suasana, pemandangan) | Pilihan. Satu atau beberapa klip pendek. |
 
 !!! warning "Saiz fail"
-    Video yang terlalu besar mungkin gagal dimuat naik. Untuk permulaan, gunakan klip pendek dan resolusi **1080p** (bukan 4K). Di iPhone: Settings → Camera → Record Video. Di Android: tetapan resolusi dalam aplikasi kamera.
+    Video yang terlalu besar mungkin gagal di-upload. Untuk permulaan, gunakan klip pendek dan resolusi **1080p** (bukan 4K). Di iPhone: Settings → Camera → Record Video. Di Android: tetapan resolusi dalam aplikasi kamera.
 
 ## Hantar kepada Claude
 
@@ -156,7 +156,7 @@ Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan tanpa m
 
     1. Buka `github.com/<username anda>/video-saya` dalam browser
     2. Tekan **Add file**, kemudian **Upload files**
-    3. Pilih ketiga-tiga video, tunggu muat naik selesai, dan tekan **Commit changes**
+    3. Pilih ketiga-tiga video, tunggu upload selesai, dan tekan **Commit changes**
     4. Dalam sesi Claude, hantar arahan yang sama, dan tambah satu baris di permulaan: *"Video saya sudah ada dalam repo ini. Sila senaraikan fail untuk mengenal pasti yang mana rujukan, rakaman, dan B-roll."*
 
     Melalui browser, GitHub hanya menerima fail sehingga **25MB** setiap satu.
@@ -182,7 +182,7 @@ Video asal anda tidak pernah diubah, jadi anda boleh mencuba berkali-kali tanpa 
 
 ## Ambil video yang siap
 
-Claude menyimpan hasil kerja di GitHub, bukan terus dalam galeri telefon. Jadi kita muat turun dari sana.
+Claude menyimpan hasil kerja di GitHub, bukan terus dalam galeri telefon. Jadi kita download dari sana.
 
 Claude biasanya menyimpan hasil dalam **cabang (branch)** berasingan, dengan nama bermula `claude/`.
 

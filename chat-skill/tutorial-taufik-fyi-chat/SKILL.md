@@ -19,7 +19,7 @@ Tapak: MkDocs Material, tema Nukilan, domain tutorial.taufik.fyi, auto deploy me
 
 ## Bundle yang dihasilkan
 
-Hasilkan **tiga bahagian** dalam satu mesej. Jika ciri penciptaan fail tersedia, simpan halaman sebagai fail `<slug>-index.md` untuk dimuat turun. Jika tidak, letak dalam blok kod.
+Hasilkan **tiga bahagian** dalam satu mesej. Jika ciri penciptaan fail tersedia, simpan halaman sebagai fail `<slug>-index.md` untuk di-download. Jika tidak, letak dalam blok kod.
 
 ### Bahagian A: halaman `docs/<slug>/index.md`
 
@@ -38,7 +38,7 @@ hide:
 
 # Tajuk Tutorial
 
-Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa. Nyatakan jika tiada komputer atau akaun diperlukan. Tambah: "Skrol sahaja ke bawah, atau guna menu di sebelah kanan untuk melompat."
+Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa. Nyatakan jika tiada komputer atau akaun diperlukan.
 
 ## Apa yang anda akan dapat
 
@@ -129,10 +129,11 @@ Jika halaman terlalu panjang untuk dimuatkan dalam satu blok, pecahkan kepada du
 
 ## Nada bahasa
 
-Bahasa Melayu Malaysia, **profesional tetapi santai**.
+Bahasa Melayu Malaysia, **profesional tetapi santai**, boleh campur dengan English yang biasa orang Malaysia guna.
 
 - Guna **saya / anda / kita**. Tidak guna aku / kau / korang.
 - Istilah teknikal kekal dalam bahasa Inggeris: repo, branch, commit, upload, download, prompt, tab Code.
+- Campur dengan English yang lazim orang Malaysia guna. Tulis **install** (bukan "pasang"), **download** (bukan "muat turun"), **upload** (bukan "muat naik"), **login** (bukan "log masuk"), dan juga app, update, setting, link, account, TAC.
 - Ayat pendek, mesra, terus kepada isi. Tiada ayat berbunga-bunga.
 - Terangkan istilah baharu dalam ayat yang sama, contohnya "**Repo** ialah folder projek di GitHub."
 - Jangan guna bahasa Indonesia.

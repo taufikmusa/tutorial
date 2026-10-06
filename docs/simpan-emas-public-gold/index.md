@@ -8,7 +8,7 @@ hide:
 
 # Cara Simpan Emas di Public Gold, Mula Serendah RM100
 
-Tutorial ini untuk anda yang mahu mula menyimpan emas tetapi belum tahu bermula dari mana. Semuanya boleh dibuat dari **telefon**, dalam empat langkah. Skrol sahaja ke bawah, atau guna menu di sebelah kanan untuk melompat.
+Tutorial ini untuk anda yang mahu mula menyimpan emas tetapi belum tahu bermula dari mana. Semuanya boleh dibuat dari **telefon**, dalam empat langkah.
 
 ## Apa yang anda akan dapat
 
@@ -23,8 +23,8 @@ Tiada caj pendaftaran, dan tiada komitmen bulanan yang wajib.
 ## Bagaimana ia berfungsi
 
 1. Anda **daftar akaun percuma** melalui pautan pendaftaran
-2. Anda **pasang aplikasi** Public Gold
-3. Anda **log masuk dan sahkan akaun** dengan kod TAC
+2. Anda **install aplikasi** Public Gold
+3. Anda **login dan sahkan akaun** dengan kod TAC
 4. Anda **buat belian pertama** melalui perbankan dalam talian (FPX)
 
 Dealer, iaitu Taufik, boleh dihubungi melalui WhatsApp jika anda perlukan bantuan.
@@ -55,7 +55,7 @@ Isi maklumat yang diminta, kemudian hantar borang.
 !!! success "Anda berjaya jika"
     Anda sudah menghantar borang pendaftaran tanpa sebarang mesej ralat.
 
-### 2. Pasang aplikasi Public Gold
+### 2. Install aplikasi Public Gold
 
 Aplikasi Public Gold tersedia di:
 
@@ -68,7 +68,7 @@ Cari **Public Gold**, kemudian tekan **Install**.
 !!! success "Anda berjaya jika"
     Ikon aplikasi Public Gold ada di skrin telefon anda.
 
-### 3. Log masuk dan sahkan akaun
+### 3. Login dan sahkan akaun
 
 1. Buka aplikasi Public Gold
 2. Gunakan **nombor kad pengenalan anda tanpa tanda sengkang** sebagai username dan kata laluan sementara. Contoh format: `980607132117`
@@ -79,7 +79,7 @@ Cari **Public Gold**, kemudian tekan **Install**.
     Aplikasi dikemas kini dari semasa ke semasa, jadi paparan skrin mungkin sedikit berbeza. Jika buntu, [hubungi Taufik melalui WhatsApp](#perlukan-bantuan).
 
 !!! success "Anda berjaya jika"
-    Anda sudah log masuk dan nampak halaman utama aplikasi.
+    Anda sudah login dan nampak halaman utama aplikasi.
 
 ### 4. Buat belian pertama
 
@@ -116,7 +116,7 @@ Jika anda tersangkut di mana-mana langkah, hubungi Taufik terus melalui WhatsApp
 ??? question "Kod TAC tidak sampai"
     Tunggu beberapa minit, kemudian semak nombor telefon yang anda daftarkan dan pastikan telefon ada liputan. Jika masih tiada, hubungi Taufik melalui WhatsApp.
 
-??? question "Tidak boleh log masuk"
+??? question "Tidak boleh login"
     Pastikan anda menaip nombor kad pengenalan **tanpa tanda sengkang dan tanpa ruang kosong**, contohnya `980607132117`. Jika masih gagal, hubungi Taufik.
 
 ??? question "Pembayaran FPX tidak berjaya"
