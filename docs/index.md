@@ -27,7 +27,7 @@ hide:
 
     **[Cara Share Slide dalam Zoom Meeting](share-slide-zoom/index.md)**
 
-    Present slide PowerPoint, Keynote atau Google Slides dalam Zoom meeting dengan yakin. Langkah lengkap untuk laptop Windows dan MacBook.
+    Present slide PowerPoint, Keynote, Google Slides atau Canva dalam Zoom meeting dengan yakin. Langkah lengkap untuk laptop Windows dan MacBook.
 
     *Satu halaman · lebih kurang 15 minit · Windows & MacBook*
 
