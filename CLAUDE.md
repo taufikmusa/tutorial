@@ -45,6 +45,8 @@ docs/
 
 Tutorial sedia ada:
 
+- `docs/share-slide-zoom/index.md`: Cara Share Slide dalam Zoom Meeting (laptop Windows dan MacBook, bukan telefon)
+- `docs/simpan-emas-public-gold/index.md`: Cara Simpan Emas di Public Gold (telefon sahaja)
 - `docs/edit-video-chat/index.md`: Edit Video Emas & Kewangan dalam Claude Chat (tanpa GitHub, telefon sahaja)
 - `docs/edit-video/index.md`: Tiru Gaya Video dengan Claude Code (telefon sahaja)
 

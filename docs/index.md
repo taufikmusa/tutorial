@@ -12,7 +12,7 @@ hide:
 
 <p class="hero-lead">Panduan howto yang ditulis langkah demi langkah. Tak perlu latar belakang teknikal. Ikut sahaja, kita siapkan sama-sama.</p>
 
-[Mulakan Tutorial Terkini →](simpan-emas-public-gold/index.md){ .md-button .md-button--primary }
+[Mulakan Tutorial Terkini →](share-slide-zoom/index.md){ .md-button .md-button--primary }
 [Lihat Semua Tutorial](#tutorial-terkini){ .md-button }
 
 <p class="hero-pills"><span>Percuma</span><span>Untuk beginner</span><span>Step by step</span></p>
@@ -22,6 +22,16 @@ hide:
 ## Tutorial Terkini { #tutorial-terkini }
 
 <div class="grid cards" markdown>
+
+- <span class="chip">Zoom</span>
+
+    **[Cara Share Slide dalam Zoom Meeting](share-slide-zoom/index.md)**
+
+    Present slide PowerPoint, Keynote atau Google Slides dalam Zoom meeting dengan yakin. Langkah lengkap untuk laptop Windows dan MacBook.
+
+    *Satu halaman · lebih kurang 15 minit · Windows & MacBook*
+
+    [Baca tutorial →](share-slide-zoom/index.md)
 
 - <span class="chip">Emas</span>
 
