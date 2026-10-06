@@ -27,7 +27,7 @@ hide:
 
     **[Cara Simpan Emas di Public Gold](simpan-emas-public-gold/index.md)**
 
-    Daftar akaun, pasang aplikasi, sahkan akaun, dan buat belian emas pertama anda bermula serendah RM100. Empat langkah mudah, dari telefon sahaja.
+    Daftar akaun, install aplikasi, sahkan akaun, dan buat belian emas pertama anda bermula serendah RM100. Empat langkah mudah, dari telefon sahaja.
 
     *Satu halaman · lebih kurang 20 minit · telefon sahaja*
 

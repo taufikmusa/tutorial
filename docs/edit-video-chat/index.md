@@ -8,13 +8,13 @@ hide:
 
 # Edit Video Emas & Kewangan dalam Claude Chat
 
-Tutorial ini untuk anda yang mahu mengedit video pendek (50 hingga 90 saat) hanya dengan **sembang biasa dengan Claude**. Tak perlu GitHub, tak perlu Claude Code, dan tak perlu pasang apa-apa. Cukup aplikasi Claude di telefon.
+Tutorial ini untuk anda yang mahu mengedit video pendek (50 hingga 90 saat) hanya dengan **sembang biasa dengan Claude**. Tak perlu GitHub, tak perlu Claude Code, dan tak perlu install apa-apa. Cukup aplikasi Claude di telefon.
 
-Jika anda ada video rujukan, Claude tiru gayanya. Jika tiada, pilih satu daripada **tiga gaya siap pakai** yang sesuai untuk niche emas dan kewangan. Skrol sahaja ke bawah, atau guna menu di sebelah kanan untuk melompat.
+Jika anda ada video rujukan, Claude tiru gayanya. Jika tiada, pilih satu daripada **tiga gaya siap pakai** yang sesuai untuk niche emas dan kewangan.
 
 ## Apa yang anda akan dapat
 
-Anda lampirkan video rakaman anda dalam sembang, tampal satu arahan lengkap, dan Claude menghasilkan video siap yang boleh dimuat turun terus dari sembang.
+Anda lampirkan video rakaman anda dalam sembang, tampal satu arahan lengkap, dan Claude menghasilkan video siap yang boleh di-download terus dari sembang.
 
 !!! info "Sudah biasa guna terminal?"
     Ada tutorial berasingan yang menggunakan **Claude Code** untuk kerja yang lebih besar, seperti banyak klip dan B-roll. Lihat [Tiru Gaya Video dengan Claude Code](../edit-video/index.md).
@@ -22,13 +22,13 @@ Anda lampirkan video rakaman anda dalam sembang, tampal satu arahan lengkap, dan
 ## Apa yang perlu disediakan
 
 - Telefon (iPhone atau Android) dengan internet
-- Akaun Claude. Aplikasi boleh dimuat turun daripada App Store atau Google Play.
+- Akaun Claude. Aplikasi boleh di-download daripada App Store atau Google Play.
 - Satu video rakaman anda sendiri, berdurasi **50 hingga 90 saat**
 - (Pilihan) Satu video rujukan, iaitu video orang lain yang gayanya anda mahu tiru
 
 ## Sebelum mula: semak tetapan
 
-Claude boleh memproses fail (termasuk mengedit dan menghasilkan fail untuk dimuat turun) hanya jika ciri **kod dan penciptaan fail** dihidupkan.
+Claude boleh memproses fail (termasuk mengedit dan menghasilkan fail untuk di-download) hanya jika ciri **kod dan penciptaan fail** dihidupkan.
 
 1. Buka aplikasi **Claude**
 2. Pergi ke **Settings** (Tetapan), kemudian **Capabilities** (Keupayaan)
@@ -69,7 +69,7 @@ Ikut langkah ini:
 1. Analisis video rujukan dahulu. Ambil beberapa frame dan ukur masa potongan. Catat dengan ringkas: purata tempoh setiap shot, kekerapan potongan, kesan zoom atau transisi, nada warna, gaya teks atau subtitle (saiz, warna, kedudukan), dan kelantangan muzik berbanding suara.
 2. Edit video rakaman saya mengikut analisis itu: buang bahagian senyap dan percakapan yang berulang, laraskan rentak potongan, nada warna, dan gaya teks.
 3. Tambah subtitle mengikut gaya rujukan. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan.
-4. Hasilkan fail "hasil.mp4" yang boleh saya muat turun. Jangan ubah video asal saya.
+4. Hasilkan fail "hasil.mp4" yang boleh saya download. Jangan ubah video asal saya.
 
 Jika kamu tidak dapat memproses video dalam sembang ini, jangan berpura-pura. Beritahu saya terus, dan sediakan pelan edit lengkap yang boleh saya ikut dalam CapCut: senarai shot dengan masa, teks subtitle, cadangan B-roll, dan cadangan muzik.
 
@@ -110,7 +110,7 @@ Spesifikasi gaya:
 - Jika ada muzik latar, gunakan instrumental tenang pada kelantangan 10 hingga 15 peratus supaya suara saya sentiasa jelas.
 - Susunan: soalan pembuka dalam 3 saat pertama, kemudian masalah, kemudian penerangan (maksimum 3 mata), dan ditutup dengan penutup ringkas 5 saat.
 
-Buang bahagian senyap dan percakapan yang berulang. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan. Hasilkan fail "hasil.mp4" yang boleh saya muat turun. Jangan ubah video asal saya.
+Buang bahagian senyap dan percakapan yang berulang. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan. Hasilkan fail "hasil.mp4" yang boleh saya download. Jangan ubah video asal saya.
 
 Jika kamu tidak dapat memproses video dalam sembang ini, jangan berpura-pura. Beritahu saya terus, dan sediakan pelan edit lengkap yang boleh saya ikut dalam CapCut: senarai shot dengan masa, teks subtitle, dan cadangan muzik.
 
@@ -137,7 +137,7 @@ Spesifikasi gaya:
 - Jika ada muzik latar, gunakan rentak sederhana pada kelantangan 15 hingga 20 peratus, dan pastikan suara saya jelas.
 - Susunan: pernyataan berani atau bongkar mitos dalam 2 saat pertama, kemudian terus ke isi. Tutup dengan satu ayat ringkas dalam 5 saat terakhir.
 
-Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan. Hasilkan fail "hasil.mp4" yang boleh saya muat turun. Jangan ubah video asal saya.
+Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan. Hasilkan fail "hasil.mp4" yang boleh saya download. Jangan ubah video asal saya.
 
 Jika kamu tidak dapat memproses video dalam sembang ini, jangan berpura-pura. Beritahu saya terus, dan sediakan pelan edit lengkap yang boleh saya ikut dalam CapCut: senarai shot dengan masa, teks subtitle, dan cadangan muzik.
 
@@ -163,7 +163,7 @@ Spesifikasi gaya:
 - Jika ada muzik latar, gunakan muzik lembut dan perlahan pada kelantangan sekitar 10 peratus.
 - Susunan: soalan atau situasi yang dekat dengan penonton dalam 3 saat pertama, kemudian cerita, kemudian titik perubahan, kemudian pengajaran, dan ditutup dengan ajakan yang lembut dalam 5 saat terakhir.
 
-Buang bahagian senyap yang terlalu panjang tetapi kekalkan nada bercakap yang semula jadi. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan. Hasilkan fail "hasil.mp4" yang boleh saya muat turun. Jangan ubah video asal saya.
+Buang bahagian senyap yang terlalu panjang tetapi kekalkan nada bercakap yang semula jadi. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan. Hasilkan fail "hasil.mp4" yang boleh saya download. Jangan ubah video asal saya.
 
 Jika kamu tidak dapat memproses video dalam sembang ini, jangan berpura-pura. Beritahu saya terus, dan sediakan pelan edit lengkap yang boleh saya ikut dalam CapCut: senarai shot dengan masa, teks subtitle, dan cadangan muzik.
 
@@ -173,7 +173,7 @@ Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan.
 ## Selepas Claude siap
 
 1. Claude akan memaparkan fail **hasil.mp4** dalam sembang. Tekan fail itu untuk menonton.
-2. Tekan butang **muat turun** untuk simpan ke telefon.
+2. Tekan butang **download** untuk simpan ke telefon.
 3. Jika belum berpuas hati, minta pembetulan dengan ayat biasa dalam sembang yang sama:
     - *"Terlalu laju, perlahankan sedikit."*
     - *"Subtitle terlalu kecil, besarkan."*

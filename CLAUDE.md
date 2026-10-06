@@ -9,7 +9,7 @@ Repo ini ialah **tutorial.taufik.fyi**, tapak tutorial howto milik Taufik. Dibin
 - **Jangan push terus ke `main`.** Kerja di branch `claude/...`, kemudian buat Pull Request. Taufik sendiri yang akan merge.
 - Setiap merge ke `main` akan **auto deploy** (`.github/workflows/deploy.yml`). Jangan ubah workflow itu melainkan diminta.
 - Jangan sentuh `docs/CNAME`. Ia mengekalkan domain `tutorial.taufik.fyi`.
-- Jangan pasang Python atau jalankan `mkdocs build` secara lokal. Persekitaran sandbox menyekat PyPI. GitHub Actions yang akan build. Selepas PR dibuat, beritahu Taufik untuk semak tab Actions.
+- Jangan install Python atau jalankan `mkdocs build` secara lokal. Persekitaran sandbox menyekat PyPI. GitHub Actions yang akan build. Selepas PR dibuat, beritahu Taufik untuk semak tab Actions.
 
 ## Pembaca sasaran
 
@@ -21,10 +21,11 @@ Repo ini ialah **tutorial.taufik.fyi**, tapak tutorial howto milik Taufik. Dibin
 
 ## Nada bahasa
 
-Bahasa Melayu Malaysia, **profesional tetapi santai**.
+Bahasa Melayu Malaysia, **profesional tetapi santai**, boleh campur dengan English yang biasa orang Malaysia guna.
 
 - Guna **saya / anda / kita**. Jangan guna aku / kau / korang.
 - Istilah teknikal kekal dalam bahasa Inggeris (repo, branch, commit, upload, download, prompt)
+- Campur dengan English yang lazim orang Malaysia guna. Tulis **install** (bukan "pasang"), **download** (bukan "muat turun"), **upload** (bukan "muat naik"), **login** (bukan "log masuk"), dan juga app, update, setting, link, account, TAC.
 - Ayat pendek, mesra, terus kepada isi. Tiada ayat berbunga-bunga atau terlalu formal.
 - Jangan guna bahasa Indonesia.
 
@@ -115,6 +116,10 @@ Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa.
 - Jangan reka nama menu, butang, atau had yang anda tidak pasti. Jika ragu, tulis nota "nama menu boleh berubah" atau tanya Taufik.
 - Had upload fail melalui browser GitHub ialah **25MB**. Claude Code memerlukan langganan Claude **Pro atau Max**.
 - Jangan tulis tarikh, harga, atau nombor versi yang cepat lapuk kecuali perlu.
+
+## WhatsApp
+
+Setiap halaman automatik ada **kad WhatsApp di atas** dan **butang WhatsApp terapung** (dalam `overrides/main.html`). Jangan tambah butang WhatsApp kedua dalam kandungan melainkan perlu. Mesej pra-isi: "Boleh guide saya simpan emas Public Gold".
 
 ## Gaya visual (jangan ubah tanpa diminta)
 

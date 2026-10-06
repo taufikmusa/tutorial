@@ -43,7 +43,7 @@ hide:
 
 # Tajuk Tutorial
 
-Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa. Nyatakan jika tiada komputer atau akaun diperlukan. Tambah: "Skrol sahaja ke bawah, atau guna menu di sebelah kanan untuk melompat."
+Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa. Nyatakan jika tiada komputer atau akaun diperlukan.
 
 ## Apa yang anda akan dapat
 
@@ -120,10 +120,11 @@ Kad mesti ada pautan, kerana CSS menjadikan seluruh kad boleh diklik melalui pau
 
 ## Nada bahasa
 
-Bahasa Melayu Malaysia, **profesional tetapi santai**.
+Bahasa Melayu Malaysia, **profesional tetapi santai**, boleh campur dengan English yang biasa orang Malaysia guna.
 
 - Guna **saya / anda / kita**. Tidak guna aku / kau / korang.
 - Istilah teknikal kekal dalam bahasa Inggeris: repo, branch, commit, upload, download, prompt, tab Code.
+- Campur dengan English yang lazim orang Malaysia guna. Tulis **install** (bukan "pasang"), **download** (bukan "muat turun"), **upload** (bukan "muat naik"), **login** (bukan "log masuk"), dan juga app, update, setting, link, account, TAC.
 - Ayat pendek, mesra, terus kepada isi. Tiada ayat berbunga-bunga.
 - Terangkan istilah baharu dalam ayat yang sama, contohnya "**Repo** ialah folder projek di GitHub."
 - Jangan guna bahasa Indonesia.

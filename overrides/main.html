@@ -4,3 +4,22 @@
   📘 Panduan simpanan emas untuk pemula
   &nbsp;<a href="https://simpanemasfizikal.com/" target="_blank" rel="noopener"><strong>Lawati simpanemasfizikal.com →</strong></a>
 {% endblock %}
+
+{% block content %}
+  <a class="wa-top" href="https://api.whatsapp.com/send/?phone=60132740711&text=Boleh+guide+saya+simpan+emas+Public+Gold&type=phone_number&app_absent=0" target="_blank" rel="noopener">
+    <span class="wa-top__icon">{% include ".icons/fontawesome/brands/whatsapp.svg" %}</span>
+    <span class="wa-top__text">
+      <span class="wa-top__chip">WhatsApp Taufik</span>
+      <span class="wa-top__number">6013-2740711</span>
+      <span class="wa-top__hint">Tekan untuk chat, atau simpan nombor ini</span>
+    </span>
+  </a>
+  {{ super() }}
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <a class="wa-float" aria-label="WhatsApp Taufik" href="https://api.whatsapp.com/send/?phone=60132740711&text=Boleh+guide+saya+simpan+emas+Public+Gold&type=phone_number&app_absent=0" target="_blank" rel="noopener">
+    {% include ".icons/fontawesome/brands/whatsapp.svg" %}
+  </a>
+{% endblock %}
