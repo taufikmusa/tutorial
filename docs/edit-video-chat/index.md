@@ -47,8 +47,8 @@ Claude boleh memproses fail (termasuk mengedit dan menghasilkan fail untuk di-do
 | **Video rakaman anda** | Kandungan sebenar, iaitu cakap atau aksi anda | Rakam menegak, bunyi jelas, dan latar belakang kemas. Anda tak perlu cakap sempurna, Claude boleh buang bahagian senyap. |
 | **Video rujukan** (pilihan) | Gaya yang anda mahu tiru | Pilih yang gayanya jelas dan tidak terlalu panjang |
 
-!!! warning "Saiz fail"
-    Sembang Claude menghadkan saiz fail yang boleh dilampirkan (biasanya sekitar **30MB** setiap fail). Video 50 hingga 90 saat dalam 4K akan terlalu besar. Rakam dalam **1080p** atau **720p**. Di iPhone: Settings → Camera → Record Video. Di Android: tetapan resolusi dalam aplikasi kamera. Jika masih besar, kecilkan dahulu guna aplikasi pemampat video percuma.
+!!! info "Saiz fail"
+    Claude membenarkan lampiran sehingga **500MB** setiap fail (rujuk [panduan rasmi Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude){ target="_blank" rel="noopener" }). Video 50 hingga 90 saat dalam **1080p** biasanya jauh di bawah had ini. Video 4K atau 60fps boleh jadi sangat besar, dan lebih lambat untuk di-upload melalui data mudah alih. Jadi 1080p lebih sesuai. Di iPhone: Settings → Camera → Record Video. Di Android: tetapan resolusi dalam aplikasi kamera.
 
 ## Cara 1: Tiru video rujukan
 
@@ -197,7 +197,7 @@ Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan.
     Ini mungkin berlaku bergantung pada akaun atau versi aplikasi anda. Tidak mengapa. Arahan di atas sudah menyuruh Claude menyediakan **pelan edit** (senarai shot dengan masa, teks subtitle, cadangan muzik) yang boleh anda ikut dalam CapCut. Anda juga boleh menggunakan [Claude Code](../edit-video/index.md), yang memproses video di cloud.
 
 ??? question "Lampiran video gagal atau tersekat"
-    Kemungkinan fail terlalu besar. Rakam dalam resolusi lebih rendah (1080p atau 720p), atau kecilkan video dahulu dengan aplikasi pemampat. Pastikan juga sambungan internet anda stabil.
+    Semak dahulu sama ada fail melebihi **500MB**. Jika ya, rakam dalam resolusi lebih rendah (1080p atau 720p), atau kecilkan video dengan aplikasi pemampat. Jika saiz fail munasabah, kemungkinan internet anda lemah: sambung ke Wi-Fi dan cuba lagi.
 
 ??? question "Subtitle tidak tepat dengan suara"
     Ini bahagian paling rumit, kerana Claude mungkin tidak dapat mendengar suara anda. Tampal **skrip** yang anda tuturkan bersama arahan, dan minta Claude menyelaraskan teks dengan masa. Kemudian semak dan minta betulkan bahagian yang tersasar.

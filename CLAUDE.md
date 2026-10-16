@@ -117,6 +117,7 @@ Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa.
 
 - Jangan reka nama menu, butang, atau had yang anda tidak pasti. Jika ragu, tulis nota "nama menu boleh berubah" atau tanya Taufik.
 - Had upload fail melalui browser GitHub ialah **25MB**. Claude Code memerlukan langganan Claude **Pro atau Max**.
+- Lampiran fail dalam Claude Chat (sembang biasa): sehingga **500MB** setiap fail, mengikut [panduan rasmi Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude) (disahkan oleh Taufik). Jangan tulis had lain.
 - Jangan tulis tarikh, harga, atau nombor versi yang cepat lapuk kecuali perlu.
 
 ## WhatsApp
