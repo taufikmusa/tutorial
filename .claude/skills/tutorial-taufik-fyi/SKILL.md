@@ -166,6 +166,7 @@ Jika tutorial menyentuh emas atau kewangan:
 ## Fakta yang diketahui
 
 - Upload fail melalui browser GitHub dihadkan kepada **25MB** setiap fail.
+- Lampiran fail dalam Claude Chat (sembang biasa): sehingga **500MB** setiap fail, mengikut [panduan rasmi Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude) (disahkan oleh Taufik). Jangan tulis had lain.
 - Claude Code memerlukan langganan Claude **Pro atau Max**.
 - Build MkDocs **tidak boleh diuji di sandbox** (PyPI disekat). Jangan cuba `pip install` atau `mkdocs build`. GitHub Actions yang membina tapak selepas merge.
 

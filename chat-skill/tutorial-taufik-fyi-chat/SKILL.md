@@ -173,6 +173,7 @@ Jika tutorial menyentuh emas atau kewangan:
 ## Fakta yang diketahui
 
 - Upload fail melalui browser GitHub dihadkan kepada **25MB** setiap fail.
+- Lampiran fail dalam Claude Chat (sembang biasa): sehingga **500MB** setiap fail, mengikut [panduan rasmi Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude) (disahkan oleh Taufik). Jangan tulis had lain.
 - Claude Code memerlukan langganan Claude **Pro atau Max**.
 - Tapak dibina oleh GitHub Actions selepas merge. Claude Chat tidak dapat menguji build, jadi jangan dakwa halaman "sudah diuji".
 
