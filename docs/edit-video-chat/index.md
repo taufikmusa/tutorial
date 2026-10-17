@@ -10,21 +10,24 @@ hide:
 
 Tutorial ini untuk anda yang mahu mengedit video pendek (50 hingga 90 saat) hanya dengan **sembang biasa dengan Claude**. Tak perlu GitHub, tak perlu Claude Code, dan tak perlu install apa-apa. Cukup aplikasi Claude di telefon.
 
-Jika anda ada video rujukan, Claude tiru gayanya. Jika tiada, pilih satu daripada **tiga gaya siap pakai** yang sesuai untuk niche emas dan kewangan.
+Jika anda ada video rujukan, Claude ambil inspirasi daripada gayanya. Jika tiada, pilih satu daripada **tiga gaya siap pakai** yang sesuai untuk niche emas dan kewangan.
 
 ## Apa yang anda akan dapat
 
 Anda lampirkan video rakaman anda dalam sembang, tampal satu arahan lengkap, dan Claude menghasilkan video siap yang boleh di-download terus dari sembang.
 
 !!! info "Sudah biasa guna terminal?"
-    Ada tutorial berasingan yang menggunakan **Claude Code** untuk kerja yang lebih besar, seperti banyak klip dan B-roll. Lihat [Tiru Gaya Video dengan Claude Code](../edit-video/index.md).
+    Ada tutorial berasingan yang menggunakan **Claude Code** untuk kerja yang lebih besar, seperti banyak klip dan B-roll. Lihat [Ambil Inspirasi Gaya Video dengan Claude Code](../edit-video/index.md).
+
+!!! warning "Ambil inspirasi, jangan salin"
+    Gaya (rentak, warna, susunan) boleh dijadikan inspirasi. Tetapi **klip, muzik, teks dan logo** orang lain bukan milik anda. Guna video dan kandungan anda sendiri. Mahu cari inspirasi? Lihat [senarai sumber](../carousel-claude-code/index.md#cari-inspirasi-di-mana).
 
 ## Apa yang perlu disediakan
 
 - Telefon (iPhone atau Android) dengan internet
 - Akaun Claude. Aplikasi boleh di-download daripada App Store atau Google Play.
 - Satu video rakaman anda sendiri, berdurasi **50 hingga 90 saat**
-- (Pilihan) Satu video rujukan, iaitu video orang lain yang gayanya anda mahu tiru
+- (Pilihan) Satu video rujukan, iaitu video orang lain yang gayanya anda jadikan inspirasi
 
 ## Sebelum mula: semak tetapan
 
@@ -45,12 +48,12 @@ Claude boleh memproses fail (termasuk mengedit dan menghasilkan fail untuk di-do
 | Video | Fungsi | Tip |
 |---|---|---|
 | **Video rakaman anda** | Kandungan sebenar, iaitu cakap atau aksi anda | Rakam menegak, bunyi jelas, dan latar belakang kemas. Anda tak perlu cakap sempurna, Claude boleh buang bahagian senyap. |
-| **Video rujukan** (pilihan) | Gaya yang anda mahu tiru | Pilih yang gayanya jelas dan tidak terlalu panjang |
+| **Video rujukan** (pilihan) | Gaya yang anda mahu jadikan inspirasi | Pilih yang gayanya jelas dan tidak terlalu panjang |
 
 !!! info "Saiz fail"
     Claude membenarkan lampiran sehingga **500MB** setiap fail (rujuk [panduan rasmi Claude](https://support.claude.com/en/articles/8241126-upload-files-to-claude){ target="_blank" rel="noopener" }). Video 50 hingga 90 saat dalam **1080p** biasanya jauh di bawah had ini. Video 4K atau 60fps boleh jadi sangat besar, dan lebih lambat untuk di-upload melalui data mudah alih. Jadi 1080p lebih sesuai. Di iPhone: Settings → Camera → Record Video. Di Android: tetapan resolusi dalam aplikasi kamera.
 
-## Cara 1: Tiru video rujukan
+## Cara 1: Ambil inspirasi daripada video rujukan
 
 Ada video yang anda suka gayanya? Ini cara paling mudah.
 
@@ -60,15 +63,15 @@ Ada video yang anda suka gayanya? Ini cara paling mudah.
 
 ```text
 Saya lampirkan dua video:
-1. VIDEO RUJUKAN: gaya yang saya mahu tiru.
+1. VIDEO RUJUKAN: sumber inspirasi gaya, bukan untuk disalin.
 2. VIDEO RAKAMAN SAYA: kandungan sebenar yang perlu diedit. Ia untuk video pendek niche emas dan kewangan.
 
-Tugas: edit video rakaman saya supaya gayanya sama seperti video rujukan. Video akhir mesti berdurasi 50 hingga 90 saat dalam format menegak 9:16.
+Tugas: edit video rakaman saya dengan gaya yang diinspirasikan oleh video rujukan. Ambil inspirasi daripada rentak, nada warna dan gaya teks, tetapi jadikan ia hasil saya sendiri. Jangan salin klip, muzik, teks atau logo daripada rujukan. Video akhir mesti berdurasi 50 hingga 90 saat dalam format menegak 9:16.
 
 Ikut langkah ini:
 1. Analisis video rujukan dahulu. Ambil beberapa frame dan ukur masa potongan. Catat dengan ringkas: purata tempoh setiap shot, kekerapan potongan, kesan zoom atau transisi, nada warna, gaya teks atau subtitle (saiz, warna, kedudukan), dan kelantangan muzik berbanding suara.
 2. Edit video rakaman saya mengikut analisis itu: buang bahagian senyap dan percakapan yang berulang, laraskan rentak potongan, nada warna, dan gaya teks.
-3. Tambah subtitle mengikut gaya rujukan. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan.
+3. Tambah subtitle dengan gaya yang diinspirasikan oleh rujukan. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya skrip yang dituturkan.
 4. Hasilkan fail "hasil.mp4" yang boleh saya download. Jangan ubah video asal saya.
 
 Jika kamu tidak dapat memproses video dalam sembang ini, jangan berpura-pura. Beritahu saya terus, dan sediakan pelan edit lengkap yang boleh saya ikut dalam CapCut: senarai shot dengan masa, teks subtitle, cadangan B-roll, dan cadangan muzik.
@@ -77,7 +80,7 @@ Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan.
 ```
 
 !!! info "Claude tidak menonton video seperti manusia"
-    Claude menganalisis video melalui gambar (frame) yang diambil serta ukuran masa potongan. Jadi peniruan gaya bersifat **anggaran**: rentak potongan, warna, dan gaya teks biasanya boleh ditiru dengan baik. Animasi grafik yang rumit mungkin tidak sama persis.
+    Claude menganalisis video melalui gambar (frame) yang diambil serta ukuran masa potongan. Jadi inspirasi gaya bersifat **anggaran**: rentak potongan, warna, dan gaya teks biasanya boleh diambil dengan baik. Animasi grafik yang rumit mungkin tidak sama persis.
 
 ## Cara 2: Tiada rujukan? Pilih satu daripada tiga gaya
 

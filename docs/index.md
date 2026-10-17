@@ -57,7 +57,7 @@ hide:
 
     **[Edit Video Emas & Kewangan dalam Claude Chat](edit-video-chat/index.md)**
 
-    Cukup sembang biasa dengan Claude. Tiru gaya video rujukan, atau pilih satu daripada tiga gaya siap pakai untuk niche emas dan kewangan, untuk video 50 hingga 90 saat.
+    Cukup sembang biasa dengan Claude. Ambil inspirasi daripada video rujukan, atau pilih satu daripada tiga gaya siap pakai untuk niche emas dan kewangan, untuk video 50 hingga 90 saat.
 
     *Satu halaman · tanpa GitHub · telefon sahaja*
 
@@ -65,7 +65,7 @@ hide:
 
 - <span class="chip">Claude Code</span>
 
-    **[Tiru Gaya Video dengan Claude Code](edit-video/index.md)**
+    **[Ambil Inspirasi Gaya Video dengan Claude Code](edit-video/index.md)**
 
     Lampirkan video rujukan, rakaman anda dan B-roll, taip satu arahan, dan Claude edit video anda supaya bergaya sama. Dari telefon sahaja, bermula dari kosong: belum ada Claude, belum ada GitHub pun tak mengapa.
 

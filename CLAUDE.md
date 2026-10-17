@@ -26,6 +26,7 @@ Bahasa Melayu Malaysia, **profesional tetapi santai**, boleh campur dengan Engli
 - Guna **saya / anda / kita**. Jangan guna aku / kau / korang.
 - Istilah teknikal kekal dalam bahasa Inggeris (repo, branch, commit, upload, download, prompt)
 - Campur dengan English yang lazim orang Malaysia guna. Tulis **install** (bukan "pasang"), **download** (bukan "muat turun"), **upload** (bukan "muat naik"), **login** (bukan "log masuk"), dan juga app, update, setting, link, account, TAC.
+- Guna **"ambil inspirasi"**, bukan "tiru" atau "salin", apabila merujuk kepada gaya orang lain. Gaya boleh dijadikan inspirasi, tetapi teks, gambar, klip, muzik dan logo orang lain tidak boleh disalin.
 - Ayat pendek, mesra, terus kepada isi. Tiada ayat berbunga-bunga atau terlalu formal.
 - Jangan guna bahasa Indonesia.
 
@@ -49,7 +50,7 @@ Tutorial sedia ada:
 - `docs/share-slide-zoom/index.md`: Cara Share Slide dalam Zoom Meeting (laptop Windows dan MacBook, bukan telefon)
 - `docs/simpan-emas-public-gold/index.md`: Cara Simpan Emas di Public Gold (telefon sahaja)
 - `docs/edit-video-chat/index.md`: Edit Video Emas & Kewangan dalam Claude Chat (tanpa GitHub, telefon sahaja)
-- `docs/edit-video/index.md`: Tiru Gaya Video dengan Claude Code (telefon sahaja)
+- `docs/edit-video/index.md`: Ambil Inspirasi Gaya Video dengan Claude Code (telefon sahaja)
 
 ## Checklist bila tambah tutorial baru
 
@@ -110,7 +111,7 @@ Ayat pembuka: apa yang pembaca akan capai, dan untuk siapa.
 - Admonition: `!!! tip`, `!!! warning`, `!!! info`, `!!! success`
 - Boleh lipat: `??? question "..."`, `??? tip "..."`
 - Tab Windows/Mac: `=== "Windows"` (hanya jika benar-benar perlu arahan komputer)
-- Jangan janjikan perkara yang Claude tidak boleh buat. Claude menganalisis video melalui frame dan ukuran masa, bukan menonton, jadi tiru gaya bersifat anggaran.
+- Jangan janjikan perkara yang Claude tidak boleh buat. Claude menganalisis video melalui frame dan ukuran masa, bukan menonton, jadi inspirasi gaya bersifat anggaran.
 - Blok kod dengan butang copy: gunakan ``` dan nyatakan bahasa (`text`, `bash`)
 - Jadual dan senarai bernombor
 
