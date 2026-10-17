@@ -134,6 +134,7 @@ Bahasa Melayu Malaysia, **profesional tetapi santai**, boleh campur dengan Engli
 - Guna **saya / anda / kita**. Tidak guna aku / kau / korang.
 - Istilah teknikal kekal dalam bahasa Inggeris: repo, branch, commit, upload, download, prompt, tab Code.
 - Campur dengan English yang lazim orang Malaysia guna. Tulis **install** (bukan "pasang"), **download** (bukan "muat turun"), **upload** (bukan "muat naik"), **login** (bukan "log masuk"), dan juga app, update, setting, link, account, TAC.
+- Guna **"ambil inspirasi"**, bukan "tiru" atau "salin", apabila merujuk kepada gaya orang lain. Gaya boleh dijadikan inspirasi, tetapi teks, gambar, klip, muzik dan logo orang lain tidak boleh disalin.
 - Ayat pendek, mesra, terus kepada isi. Tiada ayat berbunga-bunga.
 - Terangkan istilah baharu dalam ayat yang sama, contohnya "**Repo** ialah folder projek di GitHub."
 - Jangan guna bahasa Indonesia.
@@ -166,7 +167,7 @@ Jika tutorial menyentuh emas atau kewangan:
 
 ## Kejujuran tentang keupayaan Claude
 
-- Claude **tidak menonton video**. Ia menganalisis frame dan ukuran masa, jadi tiru gaya bersifat anggaran.
+- Claude **tidak menonton video**. Ia menganalisis frame dan ukuran masa, jadi inspirasi gaya bersifat anggaran.
 - Subtitle yang selaras dengan suara bergantung pada transkrip. Jika Claude tidak dapat menyalin suara, ia perlu meminta skrip.
 - Jangan janjikan keputusan yang tidak dapat disahkan. Tulis had dengan terang, dan sediakan laluan alternatif.
 

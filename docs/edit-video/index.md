@@ -6,9 +6,9 @@ hide:
 
 <span class="chip">Claude Code · Telefon sahaja</span>
 
-# Tiru Gaya Video Kegemaran Anda dengan Claude Code
+# Ambil Inspirasi Gaya Video Kegemaran Anda dengan Claude Code
 
-Anda ada video yang anda suka gayanya? Lampirkan video itu, lampirkan rakaman anda sendiri, tambah B-roll, taip **satu arahan**, dan Claude akan edit video anda supaya bergaya sama. Semuanya dari **telefon**, tanpa komputer.
+Anda ada video yang anda suka gayanya? Jadikan ia **inspirasi**. Lampirkan video itu, lampirkan rakaman anda sendiri, tambah B-roll, taip **satu arahan**, dan Claude akan edit video anda dengan gaya yang diinspirasikan oleh video itu. Semuanya dari **telefon**, tanpa komputer.
 
 Tutorial ini untuk anda yang **belum ada Claude** dan **belum ada akaun GitHub**. Kita mulakan dari kosong.
 
@@ -16,7 +16,7 @@ Tutorial ini untuk anda yang **belum ada Claude** dan **belum ada akaun GitHub**
 
 Anda lampirkan tiga jenis video dalam sembang Claude, kemudian hantar satu arahan seperti ini:
 
-> "Tiru gaya video rujukan ini dan terapkan pada video rakaman saya. Selitkan B-roll yang saya lampirkan."
+> "Ambil inspirasi daripada gaya video rujukan ini dan terapkan pada video rakaman saya. Selitkan B-roll yang saya lampirkan."
 
 Beberapa minit kemudian, video siap anda tersedia untuk di-download.
 
@@ -28,6 +28,9 @@ Claude Code di telefon berjalan di **awan (cloud)**, bukan di dalam telefon anda
 2. **Anda** hantar satu arahan lengkap
 3. **Claude** menganalisis gaya video rujukan, kemudian mengedit video anda
 4. **Anda** download hasilnya
+
+!!! warning "Ambil inspirasi, jangan salin"
+    Gaya (rentak, warna, susunan) boleh dijadikan inspirasi. Tetapi **klip, muzik, teks dan logo** orang lain bukan milik anda. Guna video dan kandungan anda sendiri. Mahu cari inspirasi? Lihat [senarai sumber](../carousel-claude-code/index.md#cari-inspirasi-di-mana).
 
 ## Apa yang perlu disediakan
 
@@ -105,7 +108,7 @@ Sebelum menghantar arahan, siapkan tiga jenis video ini dalam galeri telefon and
 
 | Video | Fungsi | Tip |
 |---|---|---|
-| **1. Video rujukan** | Gaya yang anda mahu tiru | Pilih yang **pendek** (15 hingga 60 saat) dan gayanya jelas. Satu video sahaja. |
+| **1. Video rujukan** | Gaya yang anda mahu jadikan inspirasi | Pilih yang **pendek** (15 hingga 60 saat) dan gayanya jelas. Satu video sahaja. |
 | **2. Video rakaman anda** | Kandungan sebenar, iaitu cakap atau aksi anda | Rakam seperti biasa. Pastikan bunyi jelas. |
 | **3. B-roll** | Klip tambahan untuk diselitkan (produk, suasana, pemandangan) | Pilihan. Satu atau beberapa klip pendek. |
 
@@ -125,20 +128,20 @@ Inilah langkah utama. Dalam tab **Code**, dalam sesi repo `video-saya`:
 
 ```text
 Saya lampirkan tiga jenis video:
-1. VIDEO RUJUKAN: gaya yang saya mahu tiru.
+1. VIDEO RUJUKAN: sumber inspirasi gaya, bukan untuk disalin.
 2. VIDEO RAKAMAN SAYA: kandungan sebenar yang perlu diedit.
 3. B-ROLL: klip tambahan untuk diselitkan.
 
-Tugas: edit video rakaman saya supaya gayanya sama seperti video rujukan.
+Tugas: edit video rakaman saya dengan gaya yang diinspirasikan oleh video rujukan. Ambil inspirasi daripada rentak, nada warna dan gaya teks, tetapi jadikan ia hasil saya sendiri. Jangan salin klip, muzik, teks atau logo daripada rujukan.
 
 Ikut langkah ini:
 1. Analisis video rujukan dahulu menggunakan ffmpeg. Ambil beberapa frame dan ukur masa potongan. Catat dengan ringkas: nisbah skrin, purata tempoh setiap shot, kekerapan potongan, kesan zoom atau transisi, nada warna (terang, gelap, hangat, sejuk), gaya teks atau subtitle (saiz, warna, kedudukan), dan kelantangan muzik berbanding suara.
-2. Edit video rakaman saya mengikut analisis itu: buang bahagian senyap dan percakapan yang berulang, laraskan kelajuan potongan, nisbah skrin, dan nada warna supaya sama dengan rujukan.
+2. Edit video rakaman saya mengikut analisis itu: buang bahagian senyap dan percakapan yang berulang, laraskan kelajuan potongan, nisbah skrin, dan nada warna supaya selari dengan inspirasi daripada rujukan.
 3. Selitkan B-roll pada bahagian yang sesuai supaya video tidak membosankan. Jangan letak B-roll melebihi 3 saat pada satu-satu masa.
-4. Tambah subtitle mengikut gaya rujukan. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya teks yang dituturkan.
+4. Tambah subtitle dengan gaya yang diinspirasikan oleh rujukan. Jika kamu tidak dapat menyalin suara kepada teks, tanya saya teks yang dituturkan.
 5. Simpan hasil akhir dalam folder "siap" dengan nama "hasil.mp4" (format mp4), dalam nisbah skrin yang sama dengan rujukan. Jangan ubah atau padam video asal saya.
 
-Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan tanpa menunggu jawapan saya. Jika ada elemen dalam rujukan yang tidak dapat ditiru dengan tepat, beritahu saya apa yang kamu lakukan sebagai ganti.
+Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan tanpa menunggu jawapan saya. Jika ada elemen dalam rujukan yang tidak dapat dijadikan inspirasi dengan tepat, beritahu saya apa yang kamu lakukan sebagai ganti.
 ```
 
 ### Apa yang berlaku selepas itu
@@ -149,7 +152,7 @@ Beritahu saya ringkasan rancangan kamu dahulu, kemudian terus laksanakan tanpa m
 4. Claude menyimpan hasil dalam folder `siap`, dan menghantarnya ke GitHub
 
 !!! info "Claude tidak menonton video seperti manusia"
-    Claude menganalisis video melalui gambar (frame) yang diambil, serta ukuran masa potongan. Jadi peniruan gaya bersifat **anggaran**: rentak potongan, nisbah skrin, warna, dan gaya teks biasanya boleh ditiru dengan baik. Animasi grafik yang rumit mungkin tidak sama persis.
+    Claude menganalisis video melalui gambar (frame) yang diambil, serta ukuran masa potongan. Jadi inspirasi gaya bersifat **anggaran**: rentak potongan, nisbah skrin, warna, dan gaya teks biasanya boleh diambil dengan baik. Animasi grafik yang rumit mungkin tidak sama persis.
 
 ??? tip "Kalau butang lampir tidak menerima video"
     Jika aplikasi tidak membenarkan lampiran video, atau video terlalu besar, gunakan laluan GitHub:
@@ -196,7 +199,7 @@ Claude biasanya menyimpan hasil dalam **cabang (branch)** berasingan, dengan nam
     Minta Claude: *"Buat pull request untuk perubahan ini ke main."* Kemudian buka pull request itu di GitHub dan tekan **Merge pull request**.
 
 !!! success "Tahniah!"
-    Anda kini boleh meniru gaya video yang anda suka, hanya dengan telefon. Mulai sekarang, buka tab **Code**, lampirkan video, tampal arahan yang sama, dan Claude buat kerja.
+    Anda kini boleh mengambil inspirasi daripada gaya video yang anda suka, hanya dengan telefon. Mulai sekarang, buka tab **Code**, lampirkan video, tampal arahan yang sama, dan Claude buat kerja.
 
 ## Masalah biasa
 
