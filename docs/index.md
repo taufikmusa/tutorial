@@ -12,7 +12,7 @@ hide:
 
 <p class="hero-lead">Panduan howto yang ditulis langkah demi langkah. Tak perlu latar belakang teknikal. Ikut sahaja, kita siapkan sama-sama.</p>
 
-[Mulakan Tutorial Terkini →](share-slide-zoom/index.md){ .md-button .md-button--primary }
+[Mulakan Tutorial Terkini →](carousel-claude-code/index.md){ .md-button .md-button--primary }
 [Lihat Semua Tutorial](#tutorial-terkini){ .md-button }
 
 <p class="hero-pills"><span>Percuma</span><span>Untuk beginner</span><span>Step by step</span></p>
@@ -22,6 +22,16 @@ hide:
 ## Tutorial Terkini { #tutorial-terkini }
 
 <div class="grid cards" markdown>
+
+- <span class="chip">Claude Code</span>
+
+    **[Cara Create Carousel Instagram dengan Claude Code](carousel-claude-code/index.md)**
+
+    Ambil inspirasi daripada carousel yang anda suka, lampirkan gambar dan copywriting anda, dan Claude siapkan 7 slaid 1080 x 1350 yang sedia untuk Instagram. Termasuk tempat untuk cari inspirasi.
+
+    *Satu halaman · lebih kurang 30 minit · telefon sahaja*
+
+    [Baca tutorial →](carousel-claude-code/index.md)
 
 - <span class="chip">Zoom</span>
 
