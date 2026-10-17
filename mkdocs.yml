@@ -41,6 +41,7 @@ markdown_extensions:
 
 nav:
   - Utama: index.md
+  - "Carousel (Claude Code)": carousel-claude-code/index.md
   - "Share Slide Zoom": share-slide-zoom/index.md
   - "Simpan Emas": simpan-emas-public-gold/index.md
   - "Edit Video (Chat)": edit-video-chat/index.md
