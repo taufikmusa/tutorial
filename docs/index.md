@@ -27,7 +27,7 @@ hide:
 
     **[Cara Create Carousel Instagram dengan Claude Code](carousel-claude-code/index.md)**
 
-    Ambil inspirasi daripada carousel yang anda suka, lampirkan gambar dan copywriting anda, dan Claude siapkan 7 slaid 1080 x 1350 yang sedia untuk Instagram. Termasuk tempat untuk cari inspirasi.
+    Ambil inspirasi daripada carousel yang anda suka, lampirkan gambar dan copywriting anda, dan Claude siapkan 7 slaid 1080 x 1440 yang sedia untuk Instagram, dengan pilihan kombinasi warna. Termasuk tempat untuk cari inspirasi.
 
     *Satu halaman · lebih kurang 30 minit · telefon sahaja*
 

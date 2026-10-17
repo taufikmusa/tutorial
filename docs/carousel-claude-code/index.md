@@ -18,7 +18,7 @@ Anda lampirkan tiga perkara dalam sembang Claude, kemudian hantar satu arahan se
 
 > "Ambil inspirasi daripada gaya carousel rujukan ini. Guna gambar dan copywriting yang saya lampirkan. Siapkan 7 slaid."
 
-Beberapa minit kemudian, 7 gambar siap (1080 x 1350, saiz sebenar Instagram) tersedia untuk di-download.
+Beberapa minit kemudian, 7 gambar siap (1080 x 1440, nisbah 3:4) yang memenuhi paparan Instagram dengan menarik, tersedia untuk di-download.
 
 ## Bagaimana ia berfungsi
 
@@ -143,6 +143,57 @@ Sebelum menghantar arahan, siapkan tiga jenis bahan ini dalam galeri telefon dan
 !!! warning "Jaga kandungan emas dan kewangan"
     Jika carousel anda tentang emas atau kewangan, elak menjanjikan **keuntungan pasti**. Jika menyebut harga, semak **harga semasa** pada hari anda menerbitkannya.
 
+## Kombinasi warna yang boleh dicuba
+
+Warna menentukan sama ada carousel anda nampak kemas atau berselerak. Berikut lima kombinasi warna yang boleh anda jadikan inspirasi. Setiap kombinasi ada empat warna dengan peranan masing-masing: latar, teks, aksen dan warna sokongan.
+
+| Kombinasi | Warna | Sesuai untuk |
+|---|---|---|
+| **Electric Studio** | <span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#3040FF;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#3040FF` utama<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#DFFF70;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#DFFF70` aksen<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#10121B;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#10121B` teks / gelap<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#F5F5F0;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#F5F5F0` cerah | Studio kreatif dan produk digital. Kontras berani untuk jenama yang mahu menonjol. |
+| **Earth & Editorial** | <span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#F3EBDD;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#F3EBDD` latar<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#3E4934;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#3E4934` teks / utama<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#B85C3B;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#B85C3B` aksen<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#CDBDA5;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#CDBDA5` sokongan | Kopi, hiasan dalaman dan gaya hidup. Neutral hangat dengan aksen yang membumi. |
+| **Soft Future** | <span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#DDD4FF;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#DDD4FF` latar<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#33204F;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#33204F` teks / utama<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#E8F56D;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#E8F56D` aksen<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#FAF8F2;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#FAF8F2` cerah | Kecantikan dan kesihatan moden. Warna lembut dengan satu aksen yang tajam. |
+| **Quiet Luxury** | <span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#630002;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#630002` utama<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#F4EDE3;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#F4EDE3` cerah<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#BDA174;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#BDA174` aksen<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#222022;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#222022` teks / gelap | Wangian, fesyen dan hospitaliti. Warna dalam, neutral hangat, dan aksen yang minimum. |
+| **Fresh Signal** | <span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#006638;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#006638` teks / utama<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#C6CE76;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#C6CE76` latar<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#FF784F;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#FF784F` aksen<br><span style="display:inline-block;width:0.9em;height:0.9em;border-radius:3px;background:#F8F5EC;border:1px solid rgba(0,0,0,0.25);vertical-align:-0.1em"></span> `#F8F5EC` cerah | Minuman, makanan dan gaya hidup aktif. Latar segar dengan aksen bertenaga. |
+
+!!! tip "Untuk niche emas dan kewangan"
+    **Quiet Luxury** (aksen `#BDA174` yang hampir dengan warna emas) dan **Earth & Editorial** (neutral hangat) ialah dua kombinasi yang boleh dicuba dahulu. **Electric Studio** lebih sesuai untuk topik teknologi atau digital.
+
+!!! warning "Jaga kebolehbacaan"
+    Aksen terang seperti `#DFFF70` dan `#E8F56D` sesuai untuk penanda atau bentuk di atas latar gelap. Jangan jadikannya warna teks kecil di atas latar cerah, kerana sukar dibaca. Pastikan teks sentiasa jelas berbanding latarnya.
+
+??? tip "Baris warna siap salin"
+    Pilih satu, kemudian tampal di hujung arahan anda (sebelum copywriting).
+
+    **Electric Studio**
+
+    ```text
+    Guna kombinasi warna "Electric Studio": utama #3040FF, aksen #DFFF70, teks dan gelap #10121B, cerah #F5F5F0. Guna aksen untuk penanda dan bentuk sahaja, bukan teks kecil.
+    ```
+
+    **Earth & Editorial**
+
+    ```text
+    Guna kombinasi warna "Earth & Editorial": latar #F3EBDD, teks dan utama #3E4934, aksen #B85C3B, sokongan #CDBDA5.
+    ```
+
+    **Soft Future**
+
+    ```text
+    Guna kombinasi warna "Soft Future": latar #DDD4FF, teks dan utama #33204F, aksen #E8F56D, cerah #FAF8F2. Guna aksen untuk penanda dan bentuk sahaja, bukan teks kecil.
+    ```
+
+    **Quiet Luxury**
+
+    ```text
+    Guna kombinasi warna "Quiet Luxury": utama #630002, cerah #F4EDE3, aksen #BDA174, teks dan gelap #222022.
+    ```
+
+    **Fresh Signal**
+
+    ```text
+    Guna kombinasi warna "Fresh Signal": teks dan utama #006638, latar #C6CE76, aksen #FF784F, cerah #F8F5EC.
+    ```
+
 ## Hantar kepada Claude
 
 Inilah langkah utama. Dalam tab **Code**, dalam sesi repo `carousel-saya`:
@@ -162,12 +213,12 @@ Saya lampirkan tiga jenis bahan:
 
 Handle Instagram saya: [@USERNAME ANDA]
 
-Tugas: bina carousel Instagram 7 slaid, saiz 1080x1350 setiap satu, yang gayanya diinspirasikan oleh carousel rujukan. Ambil inspirasi daripada warna, jenis huruf, susunan dan rentak, tetapi jadikan ia reka bentuk saya sendiri. Jangan salin teks, gambar, logo atau nama akaun daripada rujukan.
+Tugas: bina carousel Instagram 7 slaid, saiz 1080x1440 (nisbah 3:4) setiap satu, yang gayanya diinspirasikan oleh carousel rujukan. Ambil inspirasi daripada warna, jenis huruf, susunan dan rentak, tetapi jadikan ia reka bentuk saya sendiri. Jangan salin teks, gambar, logo atau nama akaun daripada rujukan.
 
 Ikut langkah ini:
 1. Analisis carousel rujukan dahulu. Lihat setiap slaid dan catat dengan ringkas: warna latar dan tekstur, warna aksen, jenis dan berat fon (tajuk, perenggan, label kecil), saiz tajuk berbanding perenggan, jarak antara huruf, elemen yang berulang pada setiap slaid (nombor slaid, handle), cara gambar diletakkan (kotak, potongan, keluar tepi), hiasan, dan peranan setiap slaid (cover, isi, penutup).
 2. Bahagikan copywriting kepada 7 slaid: 1 cover, 5 slaid isi, 1 slaid penutup. Jangan tambah fakta atau angka baharu. Boleh ringkaskan ayat. Tajuk pendek dan ayat tambahan yang kamu reka sendiri, senaraikan di akhir supaya saya boleh semak.
-3. Bina setiap slaid menggunakan HTML dan CSS, kemudian render dengan Playwright (Chromium) kepada JPG 1080x1350. Guna fon yang serupa dengan rujukan, atau yang paling hampir. Jika fon tidak dapat di-download, pilih ganti yang paling hampir dan beritahu saya.
+3. Bina setiap slaid menggunakan HTML dan CSS, kemudian render dengan Playwright (Chromium) kepada JPG 1080x1440. Guna fon yang serupa dengan rujukan, atau yang paling hampir. Jika fon tidak dapat di-download, pilih ganti yang paling hampir dan beritahu saya.
 4. Dalam teks perenggan setiap slaid, highlight 2 hingga 4 frasa penting (tebal dengan penanda warna aksen) supaya mata tidak bosan membaca.
 5. Letak gambar saya pada slaid yang sesuai dengan potongan yang kemas. Potret saya, jika ada, hanya di slaid penutup. Letak handle dan nombor slaid seperti dalam rujukan. Jangan ubah atau padam gambar asal saya.
 6. Semak setiap slaid sendiri sebelum siap: teks terpotong, teks bertindih, atau terlalu rapat. Betulkan dahulu.
@@ -196,7 +247,7 @@ COPYWRITING:
 
 Anda boleh tambah baris-baris ini di hujung arahan (sebelum copywriting):
 
-- **Jika mahu warna tertentu:** *"Guna warna aksen biru dan oren sebagai warna utama."*
+- **Jika mahu warna tertentu:** pilih satu [kombinasi warna](#kombinasi-warna-yang-boleh-dicuba) dan tampal barisnya. Atau tulis sendiri, contohnya: *"Guna warna aksen biru dan oren sebagai warna utama."*
 - **Jika mahu bilangan slaid lain:** *"Buat 5 slaid sahaja: 1 cover, 3 isi, 1 penutup."*
 - **Jika mahu gambar tertentu di slaid tertentu:** *"Letakkan `produk-1.jpg` pada slaid 2, dan potret saya pada slaid 7."*
 - **Jika mahu tanpa label atau hiasan tertentu:** *"Jangan letak kotak warna atau kod hex di bawah gambar."*
